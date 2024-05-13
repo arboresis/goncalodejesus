@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="An Interdimensional Ode to the Oresis Tree">
+    <meta property="og:type" content="Web Based Game">
+    <meta property="og:description" content="An interpretation of ZORK by Gonçalo de Jesus, based on Dillon Lomnitzer's work.">
+
+    <title>An Interdimensional Ode to the Oresis Tree</title>
+    <link rel="icon" href="images/favicon.ico">
+
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/commandline_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script src="assets/js/Helpers/jquery.js"></script>
+    <div id="crt-screen" class="crt">
+        <div class="container">
+
+            <!-- !!! THE TOP BAR !!! -->
+            <div class="scorebar-background">
+                <div class="scorebar">
+                    <div id="scorebar-inner">
+                        <a id="selected-regular-button" href="index.html" target="_self"><div class="topbar-name"><strong>┉Gonçalo de⠀Jesus</strong><span class="symbols"><u>⦙⍭⧶⌥⌇⩪⁰²⎩₇₃⨜²²⎎₀₉⑇⁷³⏦₈₄⁖⁰⁴⤳₃₁⦧⁰⁴</u></span></div></a>
+                        <div class="scorebar-divider"></div>
+                        <div id="regularbutton-grid">
+                            <a id="regular-button" href="GoncalodeJesus_CV.pdf" target="_blank"><div id="topbar-button-text">⌯ CV<div style="transform: scaleX(-1)">⇱ </div></div></a>
+                            <div class="buttongrid-divider"></div>
+                            <a id="regular-button" href="portfoliopage.html" target="_self"><div id="topbar-button-text">⪤ Portfolio</div></a>
+                            <div class="buttongrid-divider"></div>
+                            <a id="regular-button" href="skillspage.html" target="_self"><div id="topbar-button-text">⑇ Skills</div></a>
+                            <div class="buttongrid-divider"></div>
+                            <a id="regular-button" href="contactform.html" target="_self"><div id="topbar-button-text" style="white-space: nowrap">⨬ Contact</div></a>
+                        </div>
+                        <div class="scorebar-divider"></div>
+                        <div id="crt-toggle"><div id="crt-text" style="height: 100%"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="screen">
+                <div id="screen-inner">
+                    <div id="content" class="content">
+                        <div id="content-inner">
+
+                            <div id="aiotot-title">An   Interdimensional   Ode   to   the⠀Oresis⠀Tree</div>
+
+                            <div class="commandline">
+                                <a class="prompt" style="transform: scale(1.25);">☛</a> <input type="text" id="user_in" autofocus data-lpignore="true" />
+                            </div>
+
+                            <div class="dreamcommandline">
+                                <a class="dreamprompt" style="transform: scale(1.25);">☛</a> <input type="text" id="dreamuser_in" autofocus data-lpignore="true" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/Helpers/slider-setter.js"></script>
+    <script src="assets/js/Helpers/screenFX-setter.js"></script>
+    <script src="assets/js/Domain/Item/Item.js"></script>
+    <script src="assets/js/Domain/Room/Room.js"></script>
+    <script src="assets/js/Domain/Player/Player.js"></script>
+    <script src="assets/js/Domain/CLI/CLI.js"></script>
+    <script src="assets/js/Domain/GameEngine/GameEngine.js"></script>
+    <script src="assets/js/dreams.js"></script>
+</body>
+</html>

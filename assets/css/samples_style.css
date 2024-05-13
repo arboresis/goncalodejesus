@@ -1,0 +1,139 @@
+﻿:root {
+    --background-color: #090909;
+    --landscape-skillgrid-rowcount: 4;
+    --portrait-skillgrid-rowcount: 2;
+    --skills-divider-color: #9a905d;
+    user-select: none;
+}
+
+@font-face {
+    font-family: alien;
+    src: url(../font/Alien-Encounters-Regular.ttf);
+}
+
+#samples-note {
+    display: none;
+    vertical-align: middle;
+    font-size: 30%;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+@media only screen and (orientation: landscape) {
+    #samples-note {
+        display: initial;
+    }
+}
+
+#samples-grid {
+    height: 100%;
+    width: 99%;
+    display: grid;
+    align-content: flex-start;
+    vertical-align: top;
+    padding-bottom: 25px;
+}
+
+#samples-label {
+    font-family: alien;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 1%;
+    font-weight: bolder;
+    font-size: clamp(150%, 4vw, 250%);
+}
+
+#samples-entry-grid {
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto; /*This should have the same amount of columns as --portrait-skillgrid-rowcount*/
+    row-gap: 2vh;
+    align-content: center;
+    align-items: center;
+    margin-left: 1%;
+    vertical-align: top;
+    margin-block: 20px;
+}
+
+@media only screen and (orientation: landscape) {
+    #samples-entry-grid {
+        width: fit-content;
+        grid-template-columns: auto auto auto auto; /*This should have the same amount of columns as --landscape-skillgrid-rowcount*/
+        margin-left: 2%;
+    }
+}
+
+.samples-entry-grid-divider {
+    visibility: hidden;
+}
+
+@media only screen and (orientation: landscape) {
+    .samples-entry-grid-divider, .samples-entry-grid-divider:nth-child(2n) {
+        display: inline-grid;
+        visibility: visible;
+        align-self: center;
+        border-left: 2px solid var(--skills-divider-color);
+        margin-inline: 75px;
+        width: 0px;
+        height: 100%;
+        padding-block: 6.25%;
+    }
+
+        /*The number in Xn must correspond to the --landscape-skillgrid-rowcount variable to work properly*/
+        .samples-entry-grid-divider:nth-child(4n) {
+            margin-inline: 0;
+            visibility: hidden;
+        }
+}
+
+.samples-entry {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.samples-entry:hover {
+    transform: scale(1.03);
+}
+
+.samples-entry-label, .samples-entry-type {
+    position: relative;
+    height: 100%; /* Adjusted height to make space for description */
+    width: 100%;
+    color: #090909;
+    text-align: center;
+    overflow-inline: visible;
+    white-space: nowrap;
+    display: flex;
+    font-size: 0.5em;
+    text-decoration: underline;
+    align-items: center; /* Center vertically */
+    transition: align-items 0.3s, padding-top 0.3s;
+}
+
+@media only screen and (orientation: landscape) {
+    .samples-entry-label {
+        font-size: 0.35em;
+    }
+}
+
+
+.samples-entry-type {
+    text-decoration: none;
+    font-size: 0.5em;
+}
+
+@media only screen and (orientation: landscape) {
+    .samples-entry-type {
+        font-size: 0.35em;
+    }
+}
