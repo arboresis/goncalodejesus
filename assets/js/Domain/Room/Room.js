@@ -110,9 +110,9 @@ var roomList = {
         "start",
         "Would you like to play?",
         "Write \"play\" below and press 'Enter' to start the game.<br/><span style=\"font-size: 75%\"><i>This will clear the page and start the game, " +
-        "so make sure you have read the text above!</i><br/>Approximate duration: 1 hour and 10 minutes</span><br/>",
+        "so make sure you have read the text above!</i><br/>Approximate duration: 1 hour and 30 minutes</span><br/>",
         "Write \"play\" below and press 'Enter' to start the game.<br/><span style=\"font-size: 75%\"><i>This will clear the page and start the game, " +
-        "so make sure you have read the text above!</i><br/>Approximate duration: 1 hour and 10 minutes</span><br/>",
+        "so make sure you have read the text above!</i><br/>Approximate duration: 1 hour and 30 minutes</span><br/>",
         [],
         false,
         []),
