@@ -15,6 +15,10 @@
     src: url(../font/Alien-Encounters-Regular.ttf);
 }
 
+#skill-meter {
+    font-size: 120%;
+}
+
 /*Chrome*/
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
