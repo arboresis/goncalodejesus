@@ -153,7 +153,7 @@ class CLI {
             "CHIMNEY",
         ];
 
-        this.output('Hello there, stranger! I\'m <b>Gonçalo de Jesus</b>, a <b>Writer and Game Developer</b>.<br/><br/>'
+        this.output('Hello there, stranger! I\'m <b>Gonçalo de Jesus</b>, a <b>Narrative and Game Designer, Writer, and Game Developer</b>.<br/><br/>'
             + 'Make yourself at home in my little corner of the internet, where I hope you\'ll have a wonderful and inspiring stay.<br/>'
             + 'In the top bar, you can find various tabs with information about me.<br/><br/>'
             + '<div style="padding-left: 2%; padding-bottom:12px; line-height: 100%"><b><i>┉Gonçalo de⠀Jesus</i></b></a> will bring you back here.</div>'
