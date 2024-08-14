@@ -47,17 +47,19 @@
     height: fit-content;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr auto 1fr auto 1fr auto; /*This should have the same amount of columns as --portrait-skillgrid-rowcount*/
+    grid-template-columns: 1fr 1fr 1fr; /*This should have the same amount of columns as --portrait-skillgrid-rowcount*/
     align-content: start;
     align-items: end;
     vertical-align: top;
     /*column-gap: clamp(20px, 1vw, 50px);*/
-    row-gap: 2vh;
+    row-gap: 1vh;
+    column-gap: 1vh;
     margin-block: 20px;
 }
 
 @media only screen and (orientation: landscape) {
     #portfolioentry-grid {
+        row-gap: 2vh;
         grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr auto 1fr auto; /*This should have the same amount of columns as --landscape-skillgrid-rowcount*/
         margin-left: 2%;
         width: 98%;
@@ -65,7 +67,7 @@
 }
 
 .portfolioentry-grid-divider {
-    display: inline-grid;
+    display: none;
     visibility: visible;
     align-self: center;
     border-left: 2px solid var(--skills-divider-color);
@@ -106,8 +108,7 @@
     cursor: pointer;
     border-radius: 5%;
     overflow: hidden; /* Ensure content within .portfolio-entry doesn't overflow */
-    transition: transform 0.3s; /* Smooth transition for hover effect */
-    margin-inline: clamp(10px, 1vw, 30px);
+    transition: transform 0.5s; /* Smooth transition for hover effect */
 }
 
     .portfolio-entry:hover {
@@ -125,53 +126,57 @@
     position: absolute; /* Position the pseudo-element relative to its parent */
     bottom: 0; /* Position at the top of the image */
     left: 0; /* Position at the left of the image */
-    height: 50%; /* Adjust the height as needed */
+    height: 100%; /* Adjust the height as needed */
     width: 100%;
-    background-color: #090909ba;
-    transition: height 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
+    background-color: #090909de;
+    transition: height 0.5s, background-color 0.5s; /* Smooth transition for hover effect */
 }
 
-@media only screen and (orientation: landscape) {
-    .portfolio-entry-label-background {
-        height: 7vh;
-    }
-}
+
 
 .portfolio-entry:hover .portfolio-entry-label-background {
     height: 100%;
-    background-color: #090909ef;
+    background-color: #090909ea;
+}
+
+@media only screen and (orientation: landscape) {
+    .portfolio-entry:hover .portfolio-entry-label-background {
+        height: 20%;
+    }
 }
 
 .portfolio-entry-label {
     position: absolute;
     height: 100%; /* Adjusted height to make space for description */
     width: 90%;
+    font-weight: normal;
     color: var(--background-color);
     font-size: clamp(50%, 2vw, 110%);
     text-align: center;
     display: flex;
     justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    align-items: start; /* Center vertically */
     padding-inline: 5%;
-    transition: align-items 0.3s, padding-top 0.3s;
+    padding-top: 5%;
+    transition: align-items 0.5s, padding-top 0.5s;
 }
 
 @media only screen and (orientation: landscape) {
     .portfolio-entry-label {
+        font-weight: bold;
         font-size: clamp(30%, 1vw, 120%);
     }
 }
 
 .portfolio-entry:hover .portfolio-entry-label {
     font-weight: bold;
-    padding-top: 5%;
 }
 
 @media only screen and (orientation: landscape) {
     .portfolio-entry:hover .portfolio-entry-label {
-        font-weight: bold;
-        align-items: start;
-        padding-top: 5%;
+        font-weight: normal;
+        height: 50%;
+        align-items: center;
     }
 }
 
@@ -182,18 +187,19 @@
     color: var(--background-color);
     font-size: 2vw;
     text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
-    opacity: 0.75;
+    opacity: 0;
     text-align: center;
     display: flex;
     justify-content: center; /* Center horizontally */
-    align-items: start; /* Center vertically */
+    align-items: end; /* Center vertically */
     padding-inline: 5%;
-    padding-top: 10%;
-    transition: align-items 0.3s, padding-top 0.3s;
+    padding-bottom: 10%;
+    transition: opacity 0.3s, align-items 0.3s, padding-bottom 0.3s;
 }
 
 @media only screen and (orientation: landscape) {
     .portfolio-entry-note {
+        opacity: 0.75;
         font-size: 1vw;
     }
 
@@ -203,21 +209,28 @@
 }
 
 .portfolio-entry-description {
-    opacity: 0;
+    opacity: 1;
     position: absolute;
-    top: 50%; /* Position below the label */
-    transform: translateY(-50%); /* Center vertically */
+    font-weight: normal;
+    bottom: 10%; /* Position below the label */
     width: 85%;
     color: var(--background-color);
     font-size: clamp(12px, 1.5vw, 20px);
     text-align: center;
-    transition: opacity 0.0s, font-weight 0.3s;
+    transition: opacity 0.1s, font-weight 0.3s, bottom 0.3s;
 }
 
 @media only screen and (orientation: landscape) {
+
+    .portfolio-entry-description {
+        top: 50%; /* Position below the label */
+        transform: translateY(-25%); /* Center vertically */
+    }
+
     .portfolio-entry:hover .portfolio-entry-description {
-        opacity: 1;
-        font-weight: normal;
-        transition: opacity 2s, font-weight 0.3s;
+        opacity: 0;
+        bottom: 0%;
+        font-weight: bold;
+        transition: opacity 0.1s, font-weight 0.3s, bottom 0.3s;
     }
 }
