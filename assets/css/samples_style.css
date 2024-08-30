@@ -26,7 +26,7 @@
     width: 100%;
     display: grid;
     align-content: flex-start;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 #samples-label {
@@ -46,7 +46,7 @@
     align-content: start;
     align-items: start;
     margin-left: 1%;
-    margin-block: 20px;
+    margin-top: 20px;
 }
 
 @media only screen and (orientation: landscape) {

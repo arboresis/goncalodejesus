@@ -17,6 +17,7 @@
     display: grid;
     align-content: flex-start;
     vertical-align: top;
+    padding-bottom: 35px;
 }
 
 #portfolio-content-inner {
