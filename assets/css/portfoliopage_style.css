@@ -41,7 +41,7 @@
     width: 100%;
     line-height: 100%;
     font-weight: bolder;
-    font-size: clamp(140%, 4vw, 250%);
+    font-size: clamp(140%, 5vw, 250%);
 }
 
 #portfolioentry-grid {
@@ -151,9 +151,9 @@
     position: absolute;
     height: 100%; /* Adjusted height to make space for description */
     width: 90%;
-    font-weight: normal;
+    font-weight: bold;
     color: var(--background-color);
-    font-size: clamp(50%, 2vw, 110%);
+    font-size: clamp(50%, 3vw, 110%);
     text-align: center;
     display: flex;
     justify-content: center; /* Center horizontally */
@@ -165,7 +165,6 @@
 
 @media only screen and (orientation: landscape) {
     .portfolio-entry-label {
-        font-weight: bold;
         font-size: clamp(30%, 1vw, 120%);
     }
 }
