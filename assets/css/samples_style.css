@@ -12,17 +12,13 @@
 }
 
 #samples-note {
-    display: none;
     vertical-align: middle;
-    font-size: 30%;
+    font-size: 12px;
     font-style: italic;
-    opacity: 0.5;
-}
-
-@media only screen and (orientation: landscape) {
-    #samples-note {
-        display: initial;
-    }
+    font-weight: bold;
+    opacity: 0.75;
+    color: #090909;
+    width: fit-content;
 }
 
 #samples-grid {
@@ -63,6 +59,7 @@
 
 .samples-entry-grid-divider {
     visibility: hidden;
+    justify-self: center;
 }
 
 @media only screen and (orientation: landscape) {
@@ -117,6 +114,7 @@
 
 .samples-entry-downloadlink {
     width: fit-content;
+    font-weight: bold;
     transition: transform 0.3s; /* Smooth transition for hover effect */
 }
 
@@ -128,6 +126,7 @@
     text-decoration: none;
     font-size: calc(6px + 1vw);
     width: fit-content;
+    font-weight: bold;
 }
 
 @media only screen and (orientation: landscape) {
@@ -172,6 +171,11 @@
     .collapsible:after {
         padding-left: 0px;
     }
+}
+
+.collapsible.disabled {
+    pointer-events: none; /* Disable clicking and other mouse events */
+    cursor: not-allowed; /* Change cursor to indicate non-interactivity */
 }
 
 .collapsed-content {

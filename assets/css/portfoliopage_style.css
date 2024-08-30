@@ -1,7 +1,7 @@
 ﻿:root {
     --background-color: #cdc9b0;
     --landscape-skillgrid-rowcount: 10;
-    --portrait-skillgrid-rowcount: 6;
+    --portrait-skillgrid-rowcount: 4;
     --skills-divider-color: #9a905d;
     user-select: none;
 }
@@ -38,7 +38,7 @@
     font-family: alien;
     height: fit-content;
     width: 100%;
-    margin-bottom: 1%;
+    line-height: 100%;
     font-weight: bolder;
     font-size: clamp(140%, 4vw, 250%);
 }
@@ -47,7 +47,7 @@
     height: fit-content;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /*This should have the same amount of columns as --portrait-skillgrid-rowcount*/
+    grid-template-columns: 1fr 1fr; /*This should have the same amount of columns as --portrait-skillgrid-rowcount*/
     align-content: start;
     align-items: end;
     vertical-align: top;
@@ -74,6 +74,7 @@
     margin-inline: 50%;
     width: 0px;
     height: 25px;
+    justify-self: center;
 }
 
     /*The number in Xn must correspond to the --portraitskillgrid-rowcount variable to work properly*/
