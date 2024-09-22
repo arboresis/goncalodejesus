@@ -1,0 +1,148 @@
+*comment Copyright 2010 by Dan Fabulich.
+*comment 
+*comment Dan Fabulich licenses this file to you under the
+*comment ChoiceScript License, Version 1.0 (the "License"); you may
+*comment not use this file except in compliance with the License. 
+*comment You may obtain a copy of the License at
+*comment 
+*comment	http://www.choiceofgames.com/LICENSE-1.0.txt
+*comment 
+*comment See the License for the specific language governing
+*comment permissions and limitations under the License.
+*comment 
+*comment Unless required by applicable law or agreed to in writing,
+*comment software distributed under the License is distributed on an
+*comment "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+*comment either express or implied.
+
+*title A Most Misfortunate Event (proof-of-concept)
+*author Gonçalo de Jesus
+*scene_list
+	startup
+	animal
+	variables
+	gosub
+	ending
+	death
+
+*create Jess ""
+
+*create they ""
+*create them ""
+*create their ""
+*create theirs ""
+*create themself ""
+
+*create currentclothes "naked"
+
+Hi! Thank you for playing this short proof-of-concept for [i]A Most Misfortunate Event[/i], based on
+*link https://arboresis.github.io/goncalodejesus/samples/writing/STORYPITCH_AMostMisfortunateEventEpisode.pdf this story pitch
+for an episodic story game. Please take a look at the pitch before trying out the demo, as it will provide key context for the story.
+
+Thank you again, and I hope you enjoy it!
+
+Gonçalo de Jesus
+
+*page_break
+
+*label initial_character_creation
+
+What's your first name?
+*input_text Jess
+*set Jess "$!{Jess}"
+
+*page_break
+
+What are your pronouns?
+*fake_choice
+	#she/her/hers
+		*set they "she"
+		*set them "her"
+		*set their "her"
+		*set theirs "hers"
+		*set themself "herself"
+	#he/him/his
+		*set they "he"
+		*set them "him"
+		*set their "his"
+		*set theirs "his"
+		*set themself "himself"
+	#they/them/theirs
+		*set they "they"
+		*set them "them"
+		*set their "their"
+		*set theirs "theirs"
+		*set themself "themself"
+	#[provide other pronouns]
+		Where others may prefer she or he, you prefer...
+		*input_text they
+		Where others may prefer her or him, you prefer...
+		*input_text them
+		Where others may prefer her or his, you prefer...
+		*input_text their
+		Where others may prefer hers or his, you prefer...
+		*input_text theirs
+		Where others may prefer herself or himself, you prefer...
+		*input_text themself
+
+Summary:
+
+You are ${Jess}, and you go by the pronouns ${they}/${them}/${their}/${theirs}/${themself}.
+
+Is everything correct?
+*fake_choice
+	#Yes, I'm good to go!
+	#No, there's something I'd like to change
+		*goto initial_character_creation
+
+*page_break
+
+A splashing sound outside brings you out of the shower's relaxing trance. You've been here for over an hour! You grab a towel and rush out of the bathroom door, filling the bungaloo with steam.
+
+Your hands reach out for the chair where you left your clothes.
+
+Nothing.
+*line_break
+Nothing?!
+
+You look at the corner where you left your bags, only to find them missing as well. In their place, only an oversized t-shirt, and a note:
+
+Fortune favors the clothed. ;)
+*line_break
+-S
+
+*page_break
+
+You peek outside, to find the party raging beyond the shared balcony. People are dancing and partying near the pool, while others stand on the balcony just outside, holding cocktails and chatting.
+
+One of them turns around, unknowingly forcing you to duck under your window to remain unseen.
+
+You close the curtains, and try to figure out a game plan.
+
+For the night, you'll be...
+*choice
+	*selectable_if (1 = 2) #[Do not pick] Hanging out by the pool side.
+		And what will you wear?
+		*choice
+			#The oversized t-shirt.
+				*set currentclothes "oversized t-shirt"
+			#I'll take my chances with the towel.
+				*set currentclothes "wrapped towel"
+	*selectable_if (1 = 2) #[Do not pick] Hanging outside, on the balcony.
+	
+	#Staying inside and not to embarrass myself to death!
+		You'll sort this mess out tomorrow.
+		*line_break
+		You're not about to run into a crowd wearing nothing but a thin shirt.
+		
+		*page_break
+		
+		Lacking any other clothing, you put on the baggy t-shirt, and head into the bathroom. You roll a toilet paper sheet into two small spheres, and plug them into your ears.
+		
+		They're not the earplugs you paid a kidney for, but those are nowhere to be found, so these will have to do.
+		
+		The sounds and energy from the party outside seem to fade away as you lay down. The sheets are soft, and the pillow feels like your own bit of cloud. Its foam moulds around your head as your thoughts begin to drift away.
+		
+		*page_break The following day...
+		
+		*goto_scene firstday_stayedin
