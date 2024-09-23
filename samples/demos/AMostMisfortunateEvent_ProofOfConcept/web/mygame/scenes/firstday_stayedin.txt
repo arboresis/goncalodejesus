@@ -42,7 +42,7 @@ He is completely asleep, and shows no reaction to your presence.
 *temp ranAway false
 
 *fake_choice
-	#I turn on the shower to cold. Maybe that'll wake him up.
+	*selectable_if (1 = 2) #[Do not pick] I turn on the shower to cold. Maybe that'll wake him up.
 		*set gaveTrevorColdShower true
 		You tiptoe your way around the bathroom, turn on the cold shower, and close the door.
 		
@@ -96,8 +96,8 @@ He is completely asleep, and shows no reaction to your presence.
 		Then, an eye opens. Reluctantly, of course.
 		
 		*fake_choice
-			#[Flirting] 'Good morning, sweetheart. Last night was amazing. Breakfast?'
-				'Good morning, sweetheart. Last night was amazing. Breakfast?'
+			#[Flirting] 'Good morning, sweetheart. Last night was amazing.'
+				'Good morning, sweetheart. Last night was amazing.'
 				
 				'Wh-- Yeah, yes. I'm truly sorry, I'm really not like this, but who are you?', he asks with the most confused look on his face.
 				
@@ -113,7 +113,7 @@ He is completely asleep, and shows no reaction to your presence.
 				
 				'If you'd like, you can check my keycard. You can find it somewhere near the door.'
 				*page_break
-			#'Excuse me, sir, why are you here?'
+			*selectable_if (1 = 2) #[Do not pick] 'Excuse me, sir, why are you here?'
 				'Excuse me, sir, why are you here?', you ask.
 				
 				'Oh, I must have passed out or something. Why are [b]you here?'
