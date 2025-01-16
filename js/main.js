@@ -25,9 +25,27 @@
 
 	var fullHeight = function () {
 		if (!isMobile.any()) {
-			$('.js-fullheight').css('height', $(window).height());
+			var $fullHeightElements = $('.js-fullheight');
+
+			var updateHeightAndScrollbar = function () {
+				var windowHeight = $(window).height();
+				$fullHeightElements.css('height', windowHeight);
+
+				// Check if the content height exceeds the window height
+				$fullHeightElements.each(function () {
+					var $this = $(this);
+					if ($this[0].scrollHeight > windowHeight) {
+						$this.css('overflow', 'auto'); // Enable scrolling
+					} else {
+						$this.css('overflow', 'hidden'); // Hide scrollbar
+					}
+				});
+			};
+
+			updateHeightAndScrollbar();
+
 			$(window).resize(function () {
-				$('.js-fullheight').css('height', $(window).height());
+				updateHeightAndScrollbar();
 			});
 		}
 	};
@@ -110,25 +128,28 @@
 
 	var clickMenu = function () {
 		$('#navbar a:not([class="external"])').click(function (event) {
-			var section = $(this).data('nav-section'),
-				navbar = $('#navbar');
+			// If the link is not external and does not have target="_blank", handle it as a navigation link
+			if (!$(this).attr('target') || $(this).attr('target') !== '_blank') {
+				var section = $(this).data('nav-section'),
+					navbar = $('#navbar');
 
-			if ($('[data-section="' + section + '"]').length) {
-				$('html, body').animate({
-					scrollTop: $('[data-section="' + section + '"]').offset().top - 55
-				}, 500);
+				if ($('[data-section="' + section + '"]').length) {
+					$('html, body').animate({
+						scrollTop: $('[data-section="' + section + '"]').offset().top - 55
+					}, 500);
+				}
+
+				if (navbar.is(':visible')) {
+					navbar.removeClass('in');
+					navbar.attr('aria-expanded', 'true');
+					$('.js-colorlib-nav-toggle').removeClass('active');
+				}
+
+				event.preventDefault(); // Prevent default only for handled navigation links
 			}
-
-			if (navbar.is(':visible')) {
-				navbar.removeClass('in');
-				navbar.attr('aria-expanded', 'true');
-				$('.js-colorlib-nav-toggle').removeClass('active');
-			}
-
-			event.preventDefault();
-			return false;
 		});
 	};
+
 
 	// Reflect scrolling in navigation
 	var navActive = function (section) {
@@ -164,8 +185,8 @@
 	var sliderMain = function () {
 		$('#colorlib-hero .flexslider').flexslider({
 			animation: "fade",
-			slideshowSpeed: 5000,
-			directionNav: true,
+			slideshow: false, // Disable automatic slideshow
+			directionNav: true, // Keep navigation buttons
 			start: function () {
 				setTimeout(function () {
 					$('.slider-text').removeClass('animated fadeInUp');

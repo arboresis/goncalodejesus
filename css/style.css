@@ -140,7 +140,7 @@ figure {
         text-transform: uppercase;
         letter-spacing: 1px; }
         #colorlib-aside #colorlib-main-menu ul li a {
-          color: rgba(0, 0, 0, 0.7);
+          color: rgba(0, 0, 0, 0.5);
           text-decoration: none;
           position: relative;
           padding: 10px 0;
@@ -186,30 +186,36 @@ figure {
             -ms-transform: scaleX(1);
             -o-transform: scaleX(1);
             transform: scaleX(1); }
-  #colorlib-aside .colorlib-footer {
-    font-size: 15px;
+#colorlib-aside .colorlib-footer {
+    font-size: 10px;
     text-align: center;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.25);
     padding: 0 20px;
-    width: 100%; }
+    width: 100%;
+}
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
         bottom: 0; } }
     #colorlib-aside .colorlib-footer span {
-      display: block; }
-    #colorlib-aside .colorlib-footer ul {
-      padding: 0;
-      margin: 0; }
+      display: block;
+    }
+#colorlib-aside .colorlib-footer ul {
+    padding: 0;
+    font-size: 15px;
+    margin: 0;
+}
       #colorlib-aside .colorlib-footer ul li {
         padding: 0;
         margin: 0;
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(0, 0, 0, 0.35);
-          padding: 4px; }
+            color: rgba(0, 0, 0, 0.35);
+            margin-top: 0;
+            padding: 4px;
+        }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
@@ -235,7 +241,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 0;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -251,15 +257,12 @@ figure {
         min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
-      bottom: 20px;
-      z-index: 1000;
-      left: 20px;
-      float: left;
-      width: auto; }
-      @media screen and (max-width: 768px) {
-        #colorlib-hero .flexslider .flex-control-nav {
-          right: 20px;
-          top: 100px; } }
+        bottom: 20px;
+        z-index: 1000;
+        right: 40px;
+        width: auto;
+        display: inline-flex;
+    }
       #colorlib-hero .flexslider .flex-control-nav li {
         display: block;
         margin-bottom: 10px; }
@@ -279,8 +282,10 @@ figure {
     #colorlib-hero .flexslider .slider-text {
       display: table;
       opacity: 0;
-      min-height: 500px;
-      z-index: 9; }
+      /*min-height: 500px;*/
+      z-index: 9; 
+      width: 100%
+    }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
         vertical-align: middle;
@@ -291,10 +296,11 @@ figure {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
-          margin: 0;
-          padding: 0;
-          color: black;
-          font-family: "Playfair Display", Georgia, serif; }
+            margin: 0;
+            padding: 0;
+            color: #EEEADE;
+            font-family: "Playfair Display", Georgia, serif;
+        }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
@@ -309,9 +315,14 @@ figure {
           margin-bottom: 30px;
           font-weight: 300;
           font-family: "Quicksand", Arial, sans-serif; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
-            color: rgba(44, 152, 240, 0.8);
-            border-bottom: 1px solid rgba(44, 152, 240, 0.7); }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
+                color: #EEEADE;
+                border-bottom: 1px solid #7886a8;
+            }
+                #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a:hover {
+                    color: #bf9f72;
+                    border-bottom: 1px solid #bf9f72;
+                }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
           @media screen and (max-width: 768px) {
@@ -323,21 +334,24 @@ figure {
           color: #fff; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner p {
           margin-bottom: 0; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-          font-size: 12px;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          color: #000;
-          padding: 10px 15px !important;
-          border: none;
-          font-weight: 400; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #000;
-            border: 1px solid #000;
-            background: transparent !important; }
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
-              background: transparent !important;
-              border: 1px solid #000 !important; }
+#colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #EEEADE;
+    padding: 10px 15px !important;
+    border: none;
+    font-weight: 400;
+}
+    #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+        color: #EEEADE;
+        border: 1px solid #EEEADE;
+        background: transparent !important;
+    }
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
+            background: transparent !important;
+            border: 1px solid #bf9f72 !important;
+        }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
@@ -374,11 +388,11 @@ body.offcanvas {
 
 .colorlib-experience,
 .colorlib-skills,
-.colorlib-education,
+.colorlib-samples,
 .colorlib-blog,
 .colorlib-work,
 .colorlib-about,
-.colorlib-services,
+.colorlib-projects,
 .colorlib-contact {
   padding-top: 4em;
   padding-bottom: 9em;
@@ -388,11 +402,11 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .colorlib-experience,
     .colorlib-skills,
-    .colorlib-education,
+    .colorlib-samples,
     .colorlib-blog,
     .colorlib-work,
     .colorlib-about,
-    .colorlib-services,
+    .colorlib-projects,
     .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
