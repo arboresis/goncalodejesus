@@ -371,6 +371,15 @@ img {
   height: auto;
 }
 
+.cookies {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 120px;
+    height: auto;
+}
+
 .img-rounded {
   border-radius: 6px;
 }
