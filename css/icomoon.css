@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
   font-family: 'icomoon';
   src:  url('fonts/icomoon.eot?6py85u');
   src:  url('fonts/icomoon.eot?6py85u#iefix') format('embedded-opentype'),
@@ -32,6 +32,18 @@
 }
 .icon-plus:before {
   content: "\e932";
+}
+.icon-fountainpen:before {
+    content: "🖋️";
+}
+.icon-gamepad:before {
+    content: "🎮";
+}
+.icon-memo:before {
+    content: "📝";
+}
+.icon-keyboard:before {
+    content: "⌨️";
 }
 .icon-minus:before {
   content: "\e933";
