@@ -303,7 +303,7 @@ figure {
         }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
-          font-size: 60px;
+          font-size: 40px;
           line-height: 1.3;
           font-weight: 700; }
           @media screen and (max-width: 768px) {
@@ -356,6 +356,8 @@ figure {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
 
+
+
 body.offcanvas {
   overflow-x: hidden; }
   body.offcanvas #colorlib-aside {
@@ -399,7 +401,7 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-projects,
 .colorlib-contact {
-  padding-top: 4em;
+  padding-top: 0;
   padding-bottom: 9em;
   clear: both;
   width: 100%;
@@ -656,7 +658,7 @@ body.offcanvas {
       color: #2c98f0; }
   .services h3 {
     font-family: "Quicksand", Arial, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500; }
     .services.color-2 {
         border-bottom: 2px solid rgb(25, 25, 25, 0.25);

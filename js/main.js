@@ -163,24 +163,27 @@
 	var navigationSection = function () {
 		var $section = $('section[data-section]');
 
+		// Waypoint for scrolling down
 		$section.waypoint(function (direction) {
 			if (direction === 'down') {
 				navActive($(this.element).data('section'));
 			}
 		}, {
-			offset: '150px'
+			offset: '300px' // Adjust this value to trigger earlier or later
 		});
 
+		// Waypoint for scrolling up
 		$section.waypoint(function (direction) {
 			if (direction === 'up') {
 				navActive($(this.element).data('section'));
 			}
 		}, {
 			offset: function () {
-				return -$(this.element).height() + 155;
+				return -$(this.element).height() + 300; // Adjust this value for upward scrolling
 			}
 		});
 	};
+
 
 	var sliderMain = function () {
 		$('#colorlib-hero .flexslider').flexslider({
@@ -273,3 +276,46 @@
 	});
 
 }());
+
+
+function scrollToSection() {
+	const section = document.querySelector('[data-section="samples"]');
+	if (section) {
+		section.scrollIntoView({ behavior: 'smooth' });
+	}
+}
+
+function scrollToAbout() {
+	const section = document.querySelector('[data-section="about"]');
+	if (section) {
+		section.scrollIntoView({ behavior: 'smooth' });
+	}
+}
+
+function scrollToSkills() {
+	const section = document.querySelector('[data-section="skills"]');
+	if (section) {
+		section.scrollIntoView({ behavior: 'smooth' });
+	}
+}
+
+function scrollToProjects() {
+	const section = document.querySelector('[data-section="projects"]');
+	if (section) {
+		section.scrollIntoView({ behavior: 'smooth' });
+	}
+}
+
+function scrollToExperience() {
+	const section = document.querySelector('[data-section="experience"]');
+	if (section) {
+		section.scrollIntoView({ behavior: 'smooth' });
+	}
+}
+
+function scrollToContact() {
+	const section = document.querySelector('[data-section="contact"]');
+	if (section) {
+		section.scrollIntoView({ behavior: 'smooth' });
+	}
+}

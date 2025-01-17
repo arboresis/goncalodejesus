@@ -70,7 +70,6 @@
 								<li><a href="#" data-nav-section="samples">Samples</a></li>
 								<li><a href="#" data-nav-section="projects">Projects</a></li>
 								<li><a href="#" data-nav-section="experience">Experience</a></li>
-								<li><a href="#" data-nav-section="work">Work</a></li>
 								<li><a href="#" data-nav-section="contact">Contact</a></li>
 							</ul>
 						</div>
@@ -109,7 +108,8 @@
 													<div class="desc">
 														<h1>Welcome!</h1>
 														<h2>Help yourself to some cookies at the bottom of the page. No, not the "steal your private data" type. The <i>delicious</i> type!</h2>
-														<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
+														<p><button class="btn btn-primary btn-learn" href="#" onclick="scrollToSamples()">What I can do <i class="icon-folder2"></i></button></p>
+														<p><button class="btn btn-primary btn-learn" href="#" onclick="scrollToExperience()">Where I've been <i class="icon-briefcase3"></i></button></p>
 														<p><a class="btn btn-primary btn-learn" href="GoncalodeJesus_CV.pdf" target="_blank">Download CV <i class="icon-inbox"></i></a></p>
 													</div>
 												</div>
@@ -117,16 +117,19 @@
 										</div>
 									</div>
 								</li>
+
 								<li style="background-image: url(images/img_bg_2.jpg);">
 									<div class="overlay"></div>
 									<div class="container-fluid">
 										<div class="row">
 											<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-												<div class="slider-text-inner">
+												<div class="slider-text-inner js-fullheight">
 													<div class="desc">
-														<h1>I am <br>a Designer</h1>
-														<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-														<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
+														<h1 style="color: #0c0c0f">I'm Gonçalo</h1>
+														<h2 style="color: #0c0c0f">Your friendly neighborhood designer-developer hybrid; never afraid to take risks, and always looking for ways to be wrong.</h2>
+														<p><button class="btn btn-primary btn-learn" href="#" onclick="scrollToAbout()" style="color: #0c0c0f">More about me <i class="icon-paper"></i></button></p>
+														<p><button class="btn btn-primary btn-learn" href="#" onclick="scrollToSkills()" style="color: #0c0c0f">My T-shaped profile <i class="icon-lightbulb"></i></button></p>
+														<p><button class="btn btn-primary btn-learn" href="#" onclick="scrollToContact()" style="color: #0c0c0f">Get in touch <i class="icon-mail"></i></button></p>
 													</div>
 												</div>
 											</div>
@@ -137,7 +140,7 @@
 						</div>
 					</section>
 
-					<section class="colorlib-about" data-section="about">
+					<section class="colorlib-about" data-section="about" style="padding-top: 4em;">
 						<div class="colorlib-narrow-content">
 							<div class="row">
 								<div class="col-md-12">
@@ -151,27 +154,27 @@
 											</div>
 										</div>
 									</div>
-									<div class="row">
+									<div class="main-skills-row">
 										<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-											<div class="services color-3">
+											<div class="services color-3" style="margin-bottom: 2em; height: 150px;">
 												<span class="icon2"><i class="icon-memo"></i></span>
 												<h3>Narrative Design</h3>
 											</div>
 										</div>
 										<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-											<div class="services color-1">
+											<div class="services color-1" style="margin-bottom: 2em; height: 150px;">
 												<span class="icon2"><i class="icon-fountainpen"></i></span>
 												<h3>Writing</h3>
 											</div>
 										</div>
 										<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-											<div class="services color-2">
+											<div class="services color-2" style="margin-bottom: 2em; height: 150px;">
 												<span class="icon2"><i class="icon-gamepad"></i></span>
 												<h3>Technical Design</h3>
 											</div>
 										</div>
 										<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-											<div class="services color-4">
+											<div class="services color-4" style="margin-bottom: 2em; height: 150px;">
 												<span class="icon2"><i class="icon-keyboard"></i></span>
 												<h3>Programming</h3>
 											</div>
@@ -507,16 +510,40 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 									<div class="progress-wrap">
-										<h3>General Tomfoolery</h3>
+										<h3>Adobe Photoshop</h3>
 										<div class="progress">
-											<div class="progress-bar color-1" role="progressbar" aria-valuenow="100"
-												 aria-valuemin="0" aria-valuemax="100" style="width:100%">
+											<div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
+												 aria-valuemin="0" aria-valuemax="100" style="width:80%">
 											</div>
 										</div>
 									</div>
 								</div>
+
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="progress-wrap">
+										<h3>Adobe Illustrator</h3>
+										<div class="progress">
+											<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
+												 aria-valuemin="0" aria-valuemax="100" style="width:70%">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="progress-wrap">
+										<h3>Blender</h3>
+										<div class="progress">
+											<div class="progress-bar color-4" role="progressbar" aria-valuenow="50"
+												 aria-valuemin="0" aria-valuemax="100" style="width:50%">
+											</div>
+										</div>
+									</div>
+								</div>
+
 								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 									<div class="progress-wrap">
 										<h3>Good Jokes</h3>
@@ -527,6 +554,7 @@
 										</div>
 									</div>
 								</div>
+
 								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 									<div class="progress-wrap">
 										<h3>Doing the Max Payne Face</h3>
@@ -537,6 +565,7 @@
 										</div>
 									</div>
 								</div>
+
 								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 									<div class="progress-wrap">
 										<h3>Making the Meanest Minced Beef w/ Rice</h3>
@@ -700,7 +729,7 @@
 											<img src="images/portfolio-entries/tbwwm_logo.jpg">
 										</span>
 										<div class="desc">
-											<h3>'The Ball Who Wanted More'</h3>
+											<h3>'The Ball Who Wanted More' (short film)</h3>
 											<p>Writer<br />Video Editor</p>
 										</div>
 										<a href="https://youtu.be/V6rMq1sLhGg" target="_blank">Watch on YouTube</a>
@@ -958,8 +987,12 @@
 													<h2 style="margin-bottom: 10px;"><b>Lusófona University of Porto</b></h2>
 													<h2><a>Videogames and Multimedia Applications</a><br /><span style="font-size: 50%;">09/2017 - 06/2020 | Bachelor's Degree</span></h2>
 													<p>
-														☛ Designed UX based on research in emotional responses;<br />
-														☛ Translated gathered insights into user-centered interfaces.
+                                                        <b>Grade: Finished top of class, with a 4.1/5 GPA</b><br/>
+														☛ Game Design I & II: 18 out of 20<br/>
+														☛ Scriptwriting and Interactive Narrative: 16 out of 20<br />
+														☛ Interaction Design: 16 out of 20<br />
+														☛ Communication Design: 17 out of 20<br />
+														☛ All Programming courses 16 or above
 													</p>
 												</div>
 											</div>
@@ -977,115 +1010,7 @@
 						</div>
 					</section>
 
-					<section class="colorlib-work" data-section="work">
-						<div class="colorlib-narrow-content">
-							<div class="row">
-								<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-									<span class="heading-meta">My Work</span>
-									<h2 class="colorlib-heading animate-box">Recent Work</h2>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-									<div class="project" style="background-image: url(images/img-1.jpg);">
-										<div class="desc">
-											<div class="con">
-												<h3><a href="work.html">Work 01</a></h3>
-												<span>Website</span>
-												<p class="icon">
-													<span><a href="#"><i class="icon-share3"></i></a></span>
-													<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-													<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-									<div class="project" style="background-image: url(images/img-2.jpg);">
-										<div class="desc">
-											<div class="con">
-												<h3><a href="work.html">Work 02</a></h3>
-												<span>Animation</span>
-												<p class="icon">
-													<span><a href="#"><i class="icon-share3"></i></a></span>
-													<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-													<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-									<div class="project" style="background-image: url(images/img-3.jpg);">
-										<div class="desc">
-											<div class="con">
-												<h3><a href="work.html">Work 03</a></h3>
-												<span>Illustration</span>
-												<p class="icon">
-													<span><a href="#"><i class="icon-share3"></i></a></span>
-													<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-													<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-									<div class="project" style="background-image: url(images/img-4.jpg);">
-										<div class="desc">
-											<div class="con">
-												<h3><a href="work.html">Work 04</a></h3>
-												<span>Application</span>
-												<p class="icon">
-													<span><a href="#"><i class="icon-share3"></i></a></span>
-													<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-													<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-									<div class="project" style="background-image: url(images/img-5.jpg);">
-										<div class="desc">
-											<div class="con">
-												<h3><a href="work.html">Work 05</a></h3>
-												<span>Graphic, Logo</span>
-												<p class="icon">
-													<span><a href="#"><i class="icon-share3"></i></a></span>
-													<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-													<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-									<div class="project" style="background-image: url(images/img-6.jpg);">
-										<div class="desc">
-											<div class="con">
-												<h3><a href="work.html">Work 06</a></h3>
-												<span>Web Design</span>
-												<p class="icon">
-													<span><a href="#"><i class="icon-share3"></i></a></span>
-													<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-													<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12 animate-box">
-									<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-								</div>
-							</div>
-						</div>
-					</section>
-
-					<section class="colorlib-contact" data-section="contact">
+					<section class="colorlib-contact" data-section="contact" style="padding-top: 0em;">
 						<div class="colorlib-narrow-content">
 							<div class="row">
 								<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
