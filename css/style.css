@@ -356,8 +356,6 @@ figure {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
 
-
-
 body.offcanvas {
   overflow-x: hidden; }
   body.offcanvas #colorlib-aside {
@@ -1200,22 +1198,23 @@ body.offcanvas {
         color: #fff;
         border: 1px solid #2c98f0 !important; }
 
-.btn {
-  margin-right: 4px;
-  margin-bottom: 4px;
-  font-family: "Quicksand", Arial, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  padding: 8px 15px !important; }
+.btn, .btn.btn-sample-link {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding: 8px 15px !important;
+}
   .btn.btn-sm {
     padding: 4px 15px !important; }
   .btn.btn-md {
@@ -1312,6 +1311,23 @@ body.offcanvas {
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
     -webkit-box-shadow: none;
     box-shadow: none; }
+
+.btn.btn-sample-link {
+    color: #EEEADE;
+    border: 1px solid #EEEADE;
+    background: transparent !important;
+}
+
+    .btn.btn-sample-link:hover {
+        background: transparent !important;
+        border: 1px solid #bf9f72 !important;
+    }
+
+@media screen and (max-width: 768px) {
+    .btn.btn-sample-link {
+        width: 100%;
+    }
+}
 
 .form-control {
   -webkit-appearance: none;

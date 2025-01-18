@@ -1,9 +1,0 @@
-[b]Stats[/b]
-
-*comment "themself" is the last main stat to be defined in the character creation process
-*if (themself = "")
-	[i]Here, you'll find your stats and anything of relevance to your journey, such as clothing, personality, among many other attributes. Finish the character creation process to access your stats![i]
-	*finish
-*else
-	${Jess}, and you go by the pronouns ${they}/${them}/${their}/${theirs}/${themself}.
-	*finish
