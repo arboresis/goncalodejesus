@@ -1,0 +1,136 @@
+<b>CONTEXT</b>
+<b>Violet Porter</b><br/>The subject of the appointment. Her parents called the Dreamer to dissuade her from pursuing a career as a lacrosse professional player. She is a high school student, with relatively good grades, that recently told her parents about her aspirations.
+
+<b>Dr. Alexander Calderon</b><br/>The Dreamer. He is employee 1145 at Dreams Inc, a company specialized in dissuading young people from following ambitious dreams, instead encouraging safer career and life paths at their parents' request.
+
+
+<b>[EXT] VIOLET'S FRONT PORCH - EARLY AFTERNOON, WEAK CLOUDS</b>
+Calderon walks, arriving at Violet's house. His walk is confident, but mechanical, and he does not fidget, miss a step, or let his eyes wander around the busy street. As he passes two people, they side-eye him in contempt, but they make no approach.
+As Calderon gets closer to her house, the girl is seen sitting by her window, looking down at the street. She notices Calderon as he climbs up the stairs and knocks on the door. Calderon does not look at her at any moment; he moves with laser focus and intent, and does not look anywhere else but where he's walking. After a few seconds, Violet's parents open the door.
+
+<div style="padding-inline: 70px">VIOLET'S MOTHER</div>
+<div style="padding-inline: 30px">Ah, you must be…</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">Dr. Calderon, madam. Pleasure to meet you.</div><br/>
+<div style="padding-inline: 70px">VIOLET'S MOTHER</div>
+<div style="padding-inline: 30px">Of course, Mr. Calderon. Sorry.</div><br/>
+Calderon replies with a polite smile and a nod, as if to say "no worries".<br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">Is she ready?</div><br/>
+<div style="padding-inline: 70px">VIOLET'S FATHER</div>
+<div style="padding-inline: 30px">"Ready" is a strong word, but she's in her room, and we told her you'd be stopping by.</div><br/>
+<div style="padding-inline: 70px">VIOLET'S MOTHER</div>
+<div style="padding-inline: 30px">I sure hope you're as good as they sold you out to be; she doesn't seem to be in the mood for this…</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">Don't worry, ma'am. We deal with cases like this every day. I'll get through to her.</div><br/>
+<b>[INT] VIOLET'S ROOM - EARLY AFTERNOON</b>
+Violet sits tucked on her desk chair with a notebook on which she doodles. Calderon knocks on the door, and she turns her chair slightly, so that Calderon wouldn't see the notebook as he came in.<br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">May I come in?</div><br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 50px">(annoyed)</div>
+<div style="padding-inline: 30px">Yes…</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 50px">(With a wide smile, that somehow doesn't seem natural, but doesn't seem forced either)</div>
+<div style="padding-inline: 30px">Hi! Violet, right?</div><br/>
+Calderon waits a split second for a response, but upon not receiving one, continues.<br/>
+<div style="padding-inline: 70px">DR. CALDERON (CONT.)</div>
+<div style="padding-inline: 30px">I'm Dr. Calderon; I--</div><br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 30px">I know who you are, and what you do, and my answer is no.</div><br/>
+Calderon approaches the nearby bedroom bench at the end of Violet's bed, and gestures towards it as if asking permission to sit. Violet shrugs, and he gently sits down.  <br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">It's alright. Let's just talk. I'm not here force you into anything, I'm just here to talk about options. Is that okay?</div><br/>
+Violet's takes a moment to say no, and Calderon takes the opportunity to interject before she can do so.<br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">You know what? Cards on the table, I'm gonna be fully honest with you, is that alright?</div><br/>
+Violet gently rotates her head towards him, a gesture of someone who is paying attention, but doesn't want Calderon to know that.
+Calderon shifts in his seat, moving closer to the desk. He pulls up a folder, and takes out the files that he was given for the case. A full psychological profile, a sheet with her full grades throughout the years, a picture of her with her team and a videotape of her playing lacrosse.<br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 50px">(gesturing towards the files)</div>
+<div style="padding-inline: 30px">This: this is the type of things my company wants us to do, right? That's what you heard, isn't it? That we're monsters that treat people as numbers?</div>
+<div style="padding-inline: 50px">(closing the folder and putting it away from the conversation)</div>
+<div style="padding-inline: 30px">That's not me. That's not how I do my job. Those files? They don't tell me anything about you, and how can I help you if I don't know you, huh?</div>
+<div style="padding-inline: 30px">I'm not another empty-headed grunt who doesn't give a damn about what's best for you. I'm here to help. Your parents hired me to help you; to give you options. And they care so much about you, you know they do.</div><br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 50px">(lashing)</div>
+<div style="padding-inline: 30px">How do you know? You don't know what they're like. If you're on my parents' side, you might as well leave. I'm just some trophy for them to show off to their friends when they come over.</div>
+<div style="padding-inline: 30px">'Look at her new award'; 'She was first in her class'…</div>
+<div style="padding-inline: 30px">I'm so sick of it; it's fake, it's petty, and it's stupid.</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">I… I understand. I can't say I know what you're going through, but I understand.</div>
+<div style="padding-inline: 50px">(picking his words carefully, tailoring and adapting his speech to the teenager's reaction)</div>
+<div style="padding-inline: 30px">Being your age isn't… easy. Almost never is. The pressure you're put through nowadays is… undoable.</div>
+<div style="padding-inline: 30px">You're expected to pick your path and follow it to the end, no mistakes. But that's not always how it goes, is it?</div><br/>
+Violet looks like she's going to say something, but holds herself back. She stops doodling, and sits in silence.
+Calderon spots a battered lacrosse stick leaning against the desk, near the messy corner of the room. His iris turns from dark brown to light blue for a moment, then back. Violet doesn't notice.<br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 50px">(playfully; nodding towards the stick)</div>
+<div style="padding-inline: 30px">'S that a Sharp Pro 3? Still rocking it old school, huh?</div><br/>
+Violet fully lifts her head from the notebook from the first time, with the faintest sliver of a smile on her face.<br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 50px">(small chuckle)</div>
+<div style="padding-inline: 30px">Not by choice, I'll tell you that much.</div>
+<div style="padding-inline: 30px">Mom and dad won't buy me a new one; they say I'm 'too attached' to this idea of playing, and that 'I'm ignoring how far my grades can take me'.</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">Don't you think it comes from a good place?</div><br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 30px">I don't know… I guess deep down I know it does, but it's so… infuriating. They think they're helping, but they're not. It doesn't feel like it, anyway…</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">Do you have a plan? In case lacrosse doesn't work out?</div><br/>
+Violet hesitates to speak, and places a hand on her forehead.<br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 30px">I'd love to be an artist as well. In case it doesn't work out.</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">I see. These are two career choices that are pretty permanent, you know? If you try to be an artist, you may be throwing away your grades. I've seen them, and I can tell you: you can get into a ton of places that can guarantee safety for your future. Better work conditions, better salary, career progression…</div><br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 30px">But that's not what I studied for! The only reason I studied so hard was so that they'd let me stay in the team.</div>
+<div style="padding-inline: 30px">They're always so concerned and it's just so… smothering…</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 50px">(understanding)</div>
+<div style="padding-inline: 30px">It's their job, Violet. It's their responsibility to make sure you're provided for when they can't do it themselves, and it's their duty to let you know that not everything is as it seems.</div>
+<div style="padding-inline: 50px">(friendly, but firm)</div>
+<div style="padding-inline: 30px">Of course, you love lacrosse. But it's not a sure thing, is it? Your school is way down on the list, scouts barely even give you guys the time of day. What's your plan if it doesn't work out?</div><br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 30px">Just cuz it hasn't happened yet, doesn't mean it'll never happen. Coach says I have potential, and he said he might be able to talk to a few people…</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">And I know it seems like a solid promise, but be realistic, Violet. Your coach is a high school coach with no previous background whatsoever.</div>
+<div style="padding-inline: 30px">He doesn't have any sort of relevant professional history, and I'd imagine he doesn't have any meaningful contacts either.</div>
+<div style="padding-inline: 30px">Think about it. If he did, he'd be out of there himself.</div>
+<div style="padding-inline: 30px">I know you realize this, Violet. I know you're a smart young woman, and I think you yourself questioned at times whether he's up to the job or not.</div><br/>
+Violet winces her eyebrows. This one stung. Calderon hit the weak spot; she's questioned her coach's competence multiple times before. Not that he's incompetent, but she's a teenager playing a sport; she wants to be on the field as much as possible, but the coach evenly divides shift length.
+Calderon picks up on this and insists.<br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">And art? It's great you're into art. And if you ask me, you can make it your hobby and you'll love it still.</div>
+<div style="padding-inline: 30px">But a full-time career? What'll happen when you need to pay your bills? Or when you meet someone you like, and you have to tell them you have an unsteady job?</div><br/>
+Throughout his speech, Calderon was never aggressive, nor overly emphatic or forceful, but Violet lets out a tear. She shyly tries to hide her face, but her sniffles soon become apparent. Calderon makes no physical approach, but pushes on with his message.</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">It's alright. You don't need to be sad. You can still do what you love, you know? I used to want to be a chef. You think I could do that with these clumsy hands?</div><br/>
+Calderon shows his hands. Full of small scars, they tremble involuntarily, and he points out to the tip of his ring finger, which is missing from an old injury, implying he lost it cutting something while cooking. Violet slowly and hesitantly looks at him.</div>
+He wiggles his fingers and lets out a smile, which causes Violet to draw a small smile as well.<br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 30px">Don't you miss it? Cooking, I mean.</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">I still cook, darling; I just do it in my spare time.</div>
+<div style="padding-inline: 30px">That will still happen, you know? You'll still play at the field with your friends on weekends, and you'll still draw and paint and write and sing; just in your spare time.</div>
+<div style="padding-inline: 30px">During the rest of the day, you'll do something that allows you to keep those hobbies.</div>
+<div style="padding-inline: 50px">(nodding at the battered lacrosse stick)</div>
+<div style="padding-inline: 30px">You'll be able to afford a new stick on your own.</div><br/>
+Violet smiles widely and even lets out a small chuckle.<br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">You know, us grown-ups don't want you to give up what you love. We just want you to be able to feed yourself, and buy yourself clothes, and put a roof over your own head. That's the main priority.</div>
+<div style="padding-inline: 30px">All the stuff you love will always have a place in your life. And that's great! That's how it's supposed to be!</div><br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 30px">D'you think I'll still be able to play with my friends?</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">Of course! You can all meet up at the Yonne Park field when you're free and play! You'll still talk to them, and hang out. None of that changes; you just need to look out for yourself. They'll look out for themselves as well.</div><br/>
+<div style="padding-inline: 70px">VIOLET</div>
+<div style="padding-inline: 30px">I'm just so… confused… I don't know what to choose. How can I know if I'm picking the right thing?</div><br/>
+<div style="padding-inline: 70px">DR. CALDERON</div>
+<div style="padding-inline: 30px">If it's the right path for you, you'll know it when you see it. Trust me, you will.</div>
+<div style="padding-inline: 50px">(leaning towards Violet)</div>
+<div style="padding-inline: 30px">Why don't I take you downstairs? We can talk to your parents, and they'll help you choose something that you'll love. What do you say?</div><br/>
+Calderon stands and positions himself near the door. Without a verbal response, Violet nods and puts the notepad down. Beautiful patterns and colors shade the contrastingly empty pages as she closes the notebook and puts her pencils down. She gets up and, with a deep breath, starts walking towards the door. She wears a look of concern, but hidden relief. The man holds the door open for her, and she walks out toward the staircase.
+Calderon waits until the teenager is away, and lets out a look of hidden regret and self-hatred. It's apparent that he knows what he did was wrong, and his eyebrows wince as he closes his eyes. With a deep breath to match the girl's, he closes the door behind him as he descends the stairs as well.
+
+-//-

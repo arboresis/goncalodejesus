@@ -1,0 +1,44 @@
+<div style="width: 100%; display: grid; justify-items: center;"><img src="samples/imgs/TheShatteredCombine_Emblem.png" style="width: 20%; height: auto;" /></div>
+<div><div style="text-align: center; margin-bottom: 20px;"><b style="font-size: 150%;">The Shattered Combine</b>
+Combine of Separated Provinces
+</div><hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Summary</b>
+5-second summary: Oppressive, corrupt, isolated, survival of the fittest.
+
+	The Shattered Combine is what's left from an enormous zombie plague that affected Jebelia, the old country. The Combine is composed of isolated seven provinces, separated by a desert filled with zombies, and connected only through a carefully maintained railway. Each land border with the desert is barricaded with extremely tall iron fences. The cities themselves are safe, but villages near the borders sometimes have to lead with stragglers who get through.
+</div>
+<img src="samples/imgs/TheShatteredCombine_Moodboard.jpg" style="width: 100%; height: auto;" />
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Umbraveil</b>
+	Not long after the Second Wave era began, the Combine became covered with a mysterious bed of dark gray clouds, that never went away. This soon became known as the Umbraveil, and it dictates a large part of life at the Combine.
+	There hasn't been a sunny day in decades, and the best you can expect at the Combine is light gray clouds throughout the day. The clouds aren't synonymous with rain, though, and Jebelians still experience the four stations. There are a few artificial sunlight systems to help with agriculture – and even a system that reaches above the clouds to provide a small, directed beam of sunlight. But they aren't standard, and farmers often need to rely on vegetables and plants that can survive under reduced exposure to daylight.
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Architecture</b>
+	The Combine is known for its industrial prowess, and a huge factor is the cities' architecture. After the plague, a big part of each city was rebuilt, and the respective governments planned the city for optimal product delivery – and most simple path of escape in case of a tragedy.
+	The result is a style somewhere between Victorian and industrial brutalism. Streets filled with this amalgam of concrete and brick-and-stone offer a heterogeneous view, retaining some remnants of its past self, but optimized for functionality.
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Lifestyle</b>
+	The Combine's governors are convinced that they have the cities under control; they do not. They have no more power than a mere civilian on the street. The truth is that there are two main forces at play: the police forces, and the criminal factions.
+	The police forces are a curious theme: the higher up the chain of command, the more corrupt they are. This creates a system where it's virtually impossible to bribe or trick a run-of-the-mill police officer on the streets, but nearly every single detective, chief, and commissioner is in some faction's pocket.
+	Criminal factions are a dime a dozen, and power isn't related to numbers. A group of ten children working from a basement can have more influence over a city than a group of hundreds of henchmen.
+	For the average citizen, this means that walking by anyone of any age can constitute danger; and because the factions are so spread out, this isn't just for a specific neighborhood or two. Being a shop owner is a 50-50 between nothing happening, and a faction forcing itself into your store's logistics to make their business happen.
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Electricity and Transport</b>
+	Not that honor matters to most of them, but there are two professional areas seen by Jebelians as not only profitable, but honorable: cross-province transportation and fishing.
+	Cross-province transportation is vital to the avoidance of the Combine's collapse. Each province specializes in different areas, so trade between them must be assured, and there is no other way than the connecting railways. Railway workers risk their lives daily, by working – and sometimes living – in zombie-infested locations, with the sole purpose of keeping the Combine moving forward. Railway workers are seen with respect and admiration, often even amongst criminal factions.
+	The Combine is surrounded by the Dreadbound Deeps, a pitch-black ocean. Native to the region is the electric eel, the main source of electricity for the Combine's cities. But unspeakable monstrosities and frightful creatures populate the area, and fishing in the Deeps is a death sentence for a large part of the fisherfolk that dare set foot in high waters. Funnily enough, fisherfolk aren't seen with the admiration that their railway counterparts are; they're merely seen as people who do what they have to, to survive.
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>History</b>
+	Previously the nation of Jebelia, the Shattered Combine was the resulting territory of the devastation caused by the exodus of a mass of undead coming from the Unblessed Domain. Taking down whatever was on their way, the soulless mob took over most of the land, forming a man-made desert that very few dare to step foot on: the Undead Dunefield.
+	Jebelians barricaded each border with the Undead Dunefield with thick 20-meter-high fences, as well as the train lines and isolated stations they gradually built over time. Patrols guard every province border with the enclosing desert, and frequently have to intervene.
+The lack of a defined structure and political hierarchy following the separation pushed the proper reinforcement of the barriers more and more into the background, instead prioritizing solutions for the generalized lack of provisions and the need to maintain the trading agreements and routes that preserve their resources since before the land's severance.
+	Because of the adverse maritime conditions surrounding it, the Combine's provinces were then connected by train lines that run through the disconnected towns, carrying food and supplies from one end to the others. These trains pass through long, narrow fenced corridors that protect them from the undead populace. There are occasional loose stations that require heavy protection, but that are necessary for long journey maintenance.
+This railroad network crosses the country with crucial provisions for eel harvesting, Jebelia's main income source in the form of energy commerce.
+	The Combine lives under an effectively permanent plane of grey clouds, product of toxic winds that passed soon after the formation of the Unblessed Domain. Though the toxicity filtered away over time, the perpetually covered sky prevailed, and people had to adapt to this newfound lack of direct sunlight.
+Combine cities are often crammed conglomerates of tall buildings and people, with little to no green areas, and a big focus on societal productivity at the detriment of art and creativity.
+Throughout the post-detachment era, the shortage of civil protection funding led to many regions of the Combine becoming corrupt, governed by gangs and factions, shanty towns... Ultimately, everything that could go wrong did, and everything that couldn't go wrong was barely left standing.
+	Factions rule the cities, fishermen rule the ports, and railroad officers rule the land no one wants to set foot in; but all of them may soon discover the consequences of doing business without first securing your own front door.
