@@ -1,0 +1,81 @@
+<div style="text-align: center; margin-bottom: 20px;"><b style="font-size: 150%;"><i>Blood Bound By Loose Ends</i></b>
+Fictional Major Side-Quest for <i>Grand Theft Auto</i>
+</div><hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Short Description</b>
+	After the powerful Delaney mob family hires the player to eliminate two rogue agents, the trail of blood behind their departure from the family starts to seem more and more painted rather than actually shed. The mob's version wildly differs from the targets' accounts, and it's up to the player to choose whether to kill or spare a former getaway driver and a tech expert who was tricked into cooperating in criminal activity. But when dealing with the Delaney family, choices have heavy consequences, and what could be a fruitful, long-lasting professional arrangement can quickly become a path to potential new allies, unexpected betrayals, and an inevitable showdown with the family itself.
+
+<b>Main Story Beats</b>
+
+<b>1. Initial Meeting with the Delaneys – Cutscene</b>
+The player arrives at the Delaney home, and is briefed on two rogue former agents of the mafia family. The meeting ends with the player character agreeing to carry out the assassinations.
+<i>The player learns the Delaney family's motivation for wanting these two people dead.</i>
+
+<b>2. Confrontation with Bernard – In-game cutscene sequence</b>
+After crashing his car against a tree and being badly injured, Bernard comes out of the vehicle, asking the player not to kill him. Provided that the player does not kill him in the meantime, he proceeds to tell his own accounts of his departure from the mob, effectively going against what the Delaney family had told the player.
+<i>The player learns that the story told by the mafia about Bernard was untrue.</i>
+
+<b>3. Confrontation with Lucia – In-game cutscene sequence</b>
+After falling down and hurting her leg, Lucia begs the player not to kill her. If the player doesn't stop her from getting up, she will explain her side of the story, and how everything the Delaneys told the player was a lie.
+<i>The player learns that the story told by the mafia about Lucia was untrue.</i>
+
+<b>4. (Conditional) Showdown with the Delaney family – Gameplay sequence</b>
+After sparing both Bernard and Lucia, the player will head towards the Delaney headquarters, but not before passing through a sweatshop where the mobsters take advantage of civilian workers as cover.
+<i>The player learns that they were right to suspect the mafia was trying to manipulate the stories.</i>
+
+<b>5. (Conditional) Final faceoff with the Delaney patriarch – Boss battle</b>
+The player, reaching the far end of the Delaney sweatshop and headquarters, faces off against the Delaneys' family head.
+<i>The player gets a satisfying ending to the Delaney crime family.</i>
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Quest Flowchart</b>
+
+<img src="samples/imgs/BloodBoundByLooseEnds_QuestFlowchart.jpg" style="width: 100%; height: auto;" />
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Quest Outcomes</b>
+
+<img src="samples/imgs/BloodBoundByLooseEnds_QuestOutcomes.jpg" style="width: 100%; height: auto;" />
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Full Description</b>
+
+<u>Quest Start</u>
+	In Blood Bound by Loose Ends, the player is contacted by the powerful Delaney mafia family, saying that an affiliate had recommended them for a particular job. The family is interested in hiring the player's team to execute two people, telling the player that the targets had been attacking their family members for a long time. The player is called upon to visit the Delaney house, in the Northeastern stretch of Red Desert Avenue.
+	The player will simultaneously be given two targets to eliminate. The order in which the targets are visited does not matter.
+
+<u>First Target</u>
+	Just before arriving at the first target's home, the player spots the target driving away from the house, initiating a driving chase segment. Rather than focusing on speed, the target uses sly driving maneuvers to evade the player, such as drifting into tight alleys, tight swerves and a J-turn to turn away from a blocked street.
+	If the player manages to kill the target during the chase, this target's side of the quest is considered finished.
+	If the player keeps up with the target, he will eventually swerve from oncoming traffic, and drive off the side of the road, crashing the vehicle.
+	Approaching the car crash will initiate a sequence where the driver opens the door and crawls out of the car, badly injured. He will beg the player not to kill him, and start explaining his version of the story.
+	The player can kill him at any time during the explanation.
+	If the player listens, they will learn:
+☛ Bernard Higgins – the first target – used to be a getaway driver for the mob family. When he tried to get out of the business because his wife was pregnant, his family was stalked and eventually killed by the mob family's goons, with the target taking some out in the process of trying to defend his wife.
+	Bernard asks the player to leave him there. The player can then execute him, or leave the area, sparing the injured driver. If the player leaves the area, Bernard will disappear, but his car will remain in the same spot, undriveable.
+<img src="samples/imgs/BloodBoundByLooseEnds_Path1.jpg" style="width: auto; max-width: 100%; height: auto;" />
+
+<u>Second Target</u>
+	The player can also pursue the second target. After arriving at the second target's hideout, the player catches the target running away into a back alley. This initiates an on-foot chase sequence through a few streets, with cars and pedestrians in the way.
+	Upon turning the corner into an alley, the target falls down to the ground and sprains her foot. She pleas for the player to let her get up and explain her side of the story. After that, she will slowly start getting up.
+	The player can shoot the target while she's getting up, which will finish her side of the quest.
+	If the player decides to let her get up, she will begin her explanation, and the player will learn:
+☛ Lucia Castro – the second target – used to date the family head's daughter. She was also a tech expert, so they got her involved with the mob's operations without her knowledge, masking their operations as other activities. When the target found out the true nature of the work, she broke up with the mob boss's daughter, and went into hiding. The mob has been stalking her ever since.
+	The player can then choose to kill her, or spare her. After her explanation, Lucia will slowly make her way towards the end of the alleyway. If she turns the corner, it is assumed that the player has spared her, and she disappears.
+<img src="samples/imgs/BloodBoundByLooseEnds_Path2.jpg" style="width: auto; max-width: 100%; height: auto;" />
+
+<u>Occasional Skirmishes</u>
+	If the player chooses to spare only one of the targets and kills the other (regardless of which one was spared), the Delaney family finds out about the spared target and will periodically send chase cars with goons after the player for a while after the mission is completed.
+	What this means in practice is that the player will receive a message upon concluding the mission saying that the mob has spotted the spared target fleeing town, so future collaborations are off the table. In the days following the mission's conclusion, the mob will send a car with goons to attack the player. After the given period, the mobsters will inform that they're done wasting resources, and will leave the player alone, wrapping up by saying they expect the player's full silence with the authorities, as they have proof of the deceased target's assassination.
+
+<u>Final Showdown (Optional)</u>
+	The consequences of the player's choices regarding the two targets may lead to a final showdown with the Delaney mob family and their goons, if both targets were spared. The Delaney's second-in-command will contact the player saying that they're furious, and the player has just become an enemy.
+	This will trigger a behavior similar to Occasional Skirmishes, i.e. the Delaney family will send a car per day after the player, trying to kill them. The only way to stop these encounters is to head to the Delaney headquarters, and finish the job.
+	Arriving at the fake studio lot the Delaneys run their operations from, the player must enter a sweatshop, where tons of guards will attack as soon as the player enters. The sweatshop is full of civilians. The main idea is for the player to avoid killing the civilians caught in the crossfire, but it is possible to kill them (accidentally or deliberately) with no mechanical consequences.
+	After the sweatshop is cleared of guards, the player will progress towards the Delaney headquarters, a studio lot organized similarly to an office, with cubicles and offices. At the end of the building, the player will enter the Delaney patriarch's office. Here, the final blow is dealt, and the Delaney mafia family is no more.
+<img src="samples/imgs/BloodBoundByLooseEnds_Path3.jpg" style="width: auto; max-width: 100%; height: auto;" />
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Full Document</b>
+<p style="margin-bottom: 0;">
+<a style="color: black;" draggable="false" class="btn btn-primary btn-sample-link" href="samples/QUESTDESIGNDOCUMENT_BloodBoundByLooseEnds_GTAQuest.pdf" target="_blank">PDF <i class="icon-inbox"></i></a>
+</p>
