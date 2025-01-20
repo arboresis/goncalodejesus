@@ -299,6 +299,13 @@ function scrollToSkills() {
 	}
 }
 
+function scrollToSamples() {
+	const section = document.querySelector('[data-section="samples"]');
+	if (section) {
+		section.scrollIntoView({ behavior: 'smooth' });
+	}
+}
+
 function scrollToProjects() {
 	const section = document.querySelector('[data-section="projects"]');
 	if (section) {
