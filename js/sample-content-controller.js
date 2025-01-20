@@ -16,8 +16,12 @@ function setHTMLFromFile(filePath, elementId) {
         });
 }
 
-// Example usage
+//Writing samples
 setHTMLFromFile('samples/html-format-samples/CHARACTERDESIGNDOCUMENT_Coinhead_RoUR.txt', 'CHARACTERDESIGNDOCUMENT_Coinhead_RoUR_Content');
 setHTMLFromFile('samples/html-format-samples/CHARACTERDESIGNDOCUMENT_Persephone_RoUR.txt', 'CHARACTERDESIGNDOCUMENT_Persephone_RoUR_Content');
 setHTMLFromFile('samples/html-format-samples/LOCATIONBIO_TheShatteredCombine.txt', 'LOCATIONBIO_TheShatteredCombine_Content');
 setHTMLFromFile('samples/html-format-samples/SCRIPT_DreamsInc.txt', 'SCRIPT_DreamsInc_Content');
+
+//Game Design samples
+setHTMLFromFile('samples/html-format-samples/LEVELDESIGNDOCUMENT_ExaudMeetsLobby.txt', 'LEVELDESIGNDOCUMENT_ExaudMeetsLobby_Content');
+setHTMLFromFile('samples/html-format-samples/NARRATIVESYSTEMPROPOSAL_SegueSystem.txt', 'NARRATIVESYSTEMPROPOSAL_SegueSystem_Content');

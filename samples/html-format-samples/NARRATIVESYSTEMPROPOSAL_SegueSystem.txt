@@ -1,0 +1,79 @@
+<div style="width: 100%; display: grid; justify-items: center;"><img src="images/companies/arboresis_logo.png" style="width: 20%; height: auto;" /></div>
+<div><div style="text-align: center; margin-bottom: 20px;"><b style="font-size: 150%;">The Segue System</b>
+<div style="text-align: center; margin-bottom: 20px;">Minor Narrative System Proposal
+</div></div><hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>What are Segues, Connectors, and Responses?</b>
+The Segue System is primarily composed of three components: segues, connectors, and responses.
+
+<b>Segues</b>
+	"Segue" refers to a brief phrase, expression, or word that is used to start addressing a new topic, within the same subject as before, or completely changing the conversation theme. Here are two direct examples of what these could be:
+
+<u>Example 1</u>
+<b>Player:</b> I wanted to ask you a few questions.
+<b>NPC:</b> Shoot, chief.
+<b>P (selecting a dialogue option that isn't inquiring):</b> <span style="color: red;">We'll get back to that.</span> I need you to take over Phyllis's tasks for the week. She's sick.
+
+<u>Example 2</u>
+<b>NPC:</b> Hi, [Player]! I'm the new mage. I just arrived, which tent should I settle into?
+<i>*given three options for tents and one for additional information, the player chooses to obtain more information*</i>
+<b>Player (choosing to get more information):</b> <span style="color: red;">Before I answer that,</span> do you prefer spiders or ants inside your sleeping bag?
+
+	As seen above, segues' main purpose is ensuring continuity when following non-critical dialogue choices (read dialogue that doesn't move the conversation forwards).
+
+<b>Connectors</b>
+	"Connector" refers to a brief phrase, expression, or word that is used to return to critical dialogue after a deviation has been made. Its existence avoids situations in which one or more subjects have been introduced between two critical dialogue lines – as the player obtains non-critical information – in such a way that continuing the dialogue naturally would create confusion or lack of clarity.
+
+<u>Example 1</u>
+<b>NPC:</b> I've been looking for you, [Player]! I need you to order the templars to move their dogs. They're driving people away from my tents, and I was already losing enough money with the war as it were.
+<b>Player (selecting a non-critical option):</b> What about the recruits? Can't they take care of the dogs?
+<b>N:</b> The recruits are trouble enough as it is. They got into a fight with the mages that not even the templars themselves could stop.
+<b>P (selecting a critical dialogue option):</b> <span style="color: green;">About the templars,</span> I'll ask them to take care of the dogs. You should have your customers coming back in no time.
+
+<u>Example 2</u>
+<i>*player character is being picked on in school, and it's about to turn physical; someone the player character doesn't know steps in and drives the bullies away*</i>
+<b>NPC:</b> <i>*lends a hand*</i> Get up, my guy. They shouldn't come back any time soon.
+<b>Player (selecting a non-critical option):</b> Why'd you help me?
+<b>N:</b> I don't really care for bullies, especially those guys.
+<b>P (selecting a follow-up non-critical option):</b> You know them?
+<b>N:</b> Does anyone not know them? Just about everyone here has had their lunch snatched by those douchebags. Oh, they took off with yours. Here's some of mine. <i>*splits a sandwich*</i>
+<b>P:</b> Thanks.
+<b>N:</b> You got it.
+<b>P (returning to critical dialogue):</b> <span style="color: green;">About stepping in, too.</span> Thanks.
+
+	Connectors have more of a contextual awareness than segues, but can still be as generic as desired. The ideal way to include them is to make them optional. In the examples above, if only the critical dialogue path had been followed, the connectors would not be needed, as continuity would have been assured by context. But in both cases, there was optional dialogue selected, so the conversation moved away for a bit; when returning to the original line of thought, the connector is needed, otherwise it may become confusing or unnatural.
+
+<b>Responses</b>
+	"Response" refers to a brief phrase, expression, or word that is used to bring closure to a side-track dialogue before starting another or returning to the critical dialogue. The main advantage of using responses is to bring closure to a subject before moving on, as one does in everyday conversations.
+
+<u>Example 1</u>
+<b>Player:</b> Hi, Donna. How are you?
+<b>NPC:</b> I'm doing well, sire. A lot of foot traffic around these parts lately. Human trash, if you ask me.
+<b>P (selecting a non-critical option):</b> What about that warrior I brought in?
+<b>N:</b> That would be Urra. She has been imprisoned, sire.
+<b>P (selecting a non-critical option):</b> <span style="color: blue;">Thank you.</span> What about that mage we found murdering cattle just off the western fields?
+<b>N:</b> That's Orlo, I would think. He's in the last cell to the left, sire.
+<b>P (returning to critical dialogue):</b> <span style="color: blue;">Good.</span> I need to go inside, I bring a letter from Your Majesty Eleanor to bring a prisoner to the town square for trial.
+
+<u>Example 2</u>
+<b>Player:</b> Hi, Elsa.
+<b>NPC:</b> Hi, [Player].
+<b>P (selecting a non-critical option):</b> I wanted to ask you about why you joined our crew when we passed you in the woods.
+<b>N:</b> Well… I suppose you have the right to know. I had been following you for a while, by then.
+<b>P:</b> Oh?
+<b>N:</b> You can fight like a demon, but you couldn't notice an elephant tailing you if your life depended on it. Anyways, I'd never really had any friends, but somehow I started to feel like you guys were. I didn't know anyone in your group, but you did the things I didn't have the strength to do by myself. So, I joined ya.
+<b>P (selecting another option, ignoring follow-up options):</b> <span style="color: blue;">I… had no idea. Thank you for telling me.</span> We should be ready to head out of camp soon. When you're ready, head over to Ingrid's tent to pick up your gear.
+
+	Responses are the most context-aware elements in the Segue System. In the wider picture, they are usually pre-determined lines at the end of a dialogue line. This is where responses differ from traditional lines that bring a conversation to a close.
+	Responses are more versatile, and can be placed when the conversation actually moves away from the topic. Analyzing the second example above, at a certain point, the player could have asked follow-up questions. If this had been the case, the line "I… had no idea. Thank you for telling me." would only make sense when changing the subject. If the line was – as is traditional – incorporated into the first part of the conversation, it would have felt less fluid. The player character would be bringing an ongoing conversation to a close, only to reopen it right after.
+Another advantage of responses is that they too can be as generic as desired. Although more personalized approaches are preferred, they add more production overhead. Catch-all expressions like "Okay", "Good", or "Thank you" can go a long way to add to the dialogue's flow, at a minimal cost.
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>The Segue System vs Pre-Recorded Transitions</b>
+	A crucial aspect of the system is to facilitate situations where deviations don't have a defined quantity; which is to say, players can deviate for one sentence, or four or five dialogue options, before returning to the main dialogue. In a traditional, built-in dialogue system, variations of the conversation's lines would be required to achieve the same effect as the Segue System, because the game would need to actively measure and adapt to the amount of deviation.
+	This system's functionalities eliminate the need to play different dialogue lines if the player has deviated from the main conversation, for example. With the introduction of these simple and theme-independent phrases, expressions, and words, the system produces the same effect as built-in transitions, at a fraction of the production cost and with equally noticeable results.
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Full Document</b>
+<p style="margin-bottom: 0;">
+<a style="color: black;" draggable="false" class="btn btn-primary btn-sample-link" href="samples/NARRATIVESYSTEMPROPOSAL_SegueSystem.pdf" target="_blank">PDF <i class="icon-inbox"></i></a>
+</p>
