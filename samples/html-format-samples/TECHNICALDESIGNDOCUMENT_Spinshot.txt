@@ -1,0 +1,88 @@
+<div style="width: 100%; display: grid; justify-items: center;"><img src="images/companies/exaud_logo.png" style="width: 20%; height: auto;" /></div>
+<div><div style="text-align: center; margin-bottom: 20px;"><b style="font-size: 150%;">Spinshot - Technical Design Document · Project Proposal</b>
+<i style="opacity: 0.4;">This document excerpt has been cleared for portfolio inclusion with Exaud's project proposal team leaders and project managers, and its present sections have been abridged to not include sensitive details about the game's internal functioning or unauthorized undisclosed information.</i>
+</div><hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Game Information</b>
+☛ <b>Name:</b> Spinshot
+☛ <b>Genre:</b> Sports, Simulation
+☛ <b>Platforms:</b> Windows, Linux, PlayStation, Xbox, Switch
+
+<b>Product Overview</b>
+	Spinshot is the handball simulator that brings you to the heart of the game, lets you submerse yourself in the atmosphere of playing handball at the highest level.
+	Experience the intensity and physicality of being out on the court, and feel your heart skip a beat when you're face-to-face with your opponent. Customize your teams, your players and even your arenas, and sense it all through our immersive and intuitive control system, so you never miss a queue.
+
+<b>Unique Selling Points</b>
+☛ <u>Jump into fast-paced handball action</u>
+Every decision is key, and juggling physical prowess with tactical know-how will be vital on your journey to glory.
+☛ <u>Manage, compete, dominate</u>
+Various game modes bring you multiple ways to play; from career and manager modes to friendly competitions with friends, feel handball from different perspectives, on your own or with company.
+☛ <u>Personalize every aspect of your game</u>
+With our in-depth tools, create and edit players, teams, and whatever else you need to make each match feel yours.
+☛ <u>Find your style, level up your skill</u>
+Our immersive control system allows you to keep your favorite shots on the tip of your fingers. Blur the line between you and your players: read the play, call the shots, and bring home the W.
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Control System</b>
+
+<u>Attacking</u>
+<b>Left analog stick:</b> Move player, define passing direction, and aim shot
+<b>Right analog stick:</b> Shooting (through gestures)
+
+<img src="samples/imgs/Spinshot_SkillStickControls.jpg" style="width: 100%; height: auto;" />
+
+<b>RT:</b> Steps without dribbling (on release, jump)
+<b>RB:</b> Pass
+<b>LT:</b> 'Bounce' modifier
+<b>LB:</b> 'Fake' modifier (used to fake shots and passes, ...)
+
+<b>⇑:</b> Trigger created play 1
+<b>⇒:</b> Trigger created play 2
+<b>⇓:</b> Trigger created play 3
+<b>⇐:</b> Trigger created play 4
+
+<b>A:</b> Cycle backcourt lines (CB, LB, RB)
+<b>B:</b> Cycle frontline lines (P, LW, RW)
+<b>Y:</b> Toggle Winger as second Pivot
+<b>X:</b> Toggle the main Pivot's side of the field
+
+
+<u>Defending</u>
+<b>Left analog stick:</b> Move player and define which player to switch to (see RB)
+<b>Right analog stick:</b> Define the defender's motion when blocking a shot
+
+<b>RT:</b> Jump (on release)
+<b>RB:</b> Switch player
+<b>LT:</b> Lower stance
+<b>LB:</b> Intercept
+
+<b>⇑:</b> Switch to a 5-1 defensive formation
+<b>⇒:</b> Switch to a 3-2-1 defensive formation
+<b>⇓:</b> Switch to a 6-0 defensive formation
+<b>⇐:</b> Switch to a 4-2 defensive formation
+
+<b>A:</b> Cycle backcourt lines (CB, LB, RB)
+<b>B:</b> Cycle frontline lines (P, LW, RW)
+<b>Y+X:</b> Pull goalie for the next attacking play (if pressed again, the pull is canceled)
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Game Design / File System Philosophy</b>
+	Spinshot's file system is conceived to seamlessly integrate the customization-first mindset of the game's design. The file system philosophy consists of having exposed database files, available for editing at any moment.
+	In practice, this means that players have permanent access to any key files the database uses. The responsibility of keeping the file system sane and readable falls upon the user, but this method provides the highest level of customization, from players, to teams, and even rivalries and venues.
+	As such, a saved game would look like this, for example:
+
+↳ <saved game folder path>
+  ↳ SavedGame1
+    ↳ SavedGame1.save
+    ↳ SavedGame1.competitions
+    ↳ SavedGame1.clubs
+    ↳ SavedGame1.rivalries
+    ↳ SavedGame1.venues
+    ↳ SavedGame1.people
+
+	Alterations in the file system would only be read when the saved files are reloaded, but the game should be ready to handle on-the-fly changes. There are, of course, limits to this approach - which is why the file system's maintenance falls upon the player. This should be made clear when a player tampers with a saved file's contents.
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018;" />
+<b>Full Document</b>
+<p style="margin-bottom: 0;">
+<a style="color: black;" draggable="false" class="btn btn-primary btn-sample-link" href="samples/TECHNICALDESIGNDOCUMENT_Spinshot.pdf" target="_blank">PDF <i class="icon-inbox"></i></a>
+</p>

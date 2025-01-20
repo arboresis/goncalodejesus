@@ -26,3 +26,4 @@ setHTMLFromFile('samples/html-format-samples/SCRIPT_DreamsInc.txt', 'SCRIPT_Drea
 setHTMLFromFile('samples/html-format-samples/LEVELDESIGNDOCUMENT_ExaudMeetsLobby.txt', 'LEVELDESIGNDOCUMENT_ExaudMeetsLobby_Content');
 setHTMLFromFile('samples/html-format-samples/NARRATIVESYSTEMPROPOSAL_SegueSystem.txt', 'NARRATIVESYSTEMPROPOSAL_SegueSystem_Content');
 setHTMLFromFile('samples/html-format-samples/QUESTDESIGNDOCUMENT_BloodBoundByLooseEnds_GTAQuest.txt', 'QUESTDESIGNDOCUMENT_BloodBoundByLooseEnds_GTAQuest_Content');
+setHTMLFromFile('samples/html-format-samples/TECHNICALDESIGNDOCUMENT_Spinshot.txt', 'TECHNICALDESIGNDOCUMENT_Spinshot_Content');
