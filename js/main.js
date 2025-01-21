@@ -24,30 +24,28 @@
 	};
 
 	var fullHeight = function () {
-		if (!isMobile.any()) {
-			var $fullHeightElements = $('.js-fullheight');
+		var $fullHeightElements = $('.js-fullheight');
 
-			var updateHeightAndScrollbar = function () {
-				var windowHeight = $(window).height();
-				$fullHeightElements.css('height', windowHeight);
+		var updateHeightAndScrollbar = function () {
+			var windowHeight = $(window).height();
+			$fullHeightElements.css('height', windowHeight);
 
-				// Check if the content height exceeds the window height
-				$fullHeightElements.each(function () {
-					var $this = $(this);
-					if ($this[0].scrollHeight > windowHeight) {
-						$this.css('overflow', 'auto'); // Enable scrolling
-					} else {
-						$this.css('overflow', 'hidden'); // Hide scrollbar
-					}
-				});
-			};
-
-			updateHeightAndScrollbar();
-
-			$(window).resize(function () {
-				updateHeightAndScrollbar();
+			// Check if the content height exceeds the window height
+			$fullHeightElements.each(function () {
+				var $this = $(this);
+				if ($this[0].scrollHeight > windowHeight) {
+					$this.css('overflow', 'auto'); // Enable scrolling
+				} else {
+					$this.css('overflow', 'hidden'); // Hide scrollbar
+				}
 			});
-		}
+		};
+
+		updateHeightAndScrollbar();
+
+		$(window).resize(function () {
+			updateHeightAndScrollbar();
+		});
 	};
 
 	var counter = function () {
