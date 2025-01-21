@@ -1,26 +1,66 @@
-// Function to initialize sticky behavior for all headings
 function initializeStickyHeadings() {
     // Get all panel-heading elements
     const headings = document.querySelectorAll(".panel-heading");
-    const headingOffsets = new Map(); // To store initial offsets for each heading
 
-    // Initialize the offsets for each heading
+    // Function to update the position of a specific heading dynamically
+    function updateHeadingPosition(heading) {
+        const panelId = heading.getAttribute("id");
+        const panel = document.querySelector(`#${panelId}`).nextElementSibling;
+
+        const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+        // Calculate panel boundaries
+        const panelRect = panel.getBoundingClientRect();
+        const panelTop = panelRect.top + window.scrollY;
+        const panelBottom = panelRect.bottom + window.scrollY;
+        const headingHeight = heading.offsetHeight;
+
+        let topPosition;
+
+        if (scrollPosition < panelTop - headingHeight - 5) {
+            // Case 1: Above the panel, reset to default
+            topPosition = "0px"; // Default position at the top of the panel
+        } else if (scrollPosition >= panelTop - headingHeight - 5 && scrollPosition <= panelBottom - headingHeight + 5) {
+            // Case 2: Inside the panel, fix the heading at the top of the viewport
+            const calculatedTop = scrollPosition - panelTop + headingHeight + 4;
+            topPosition = `${Math.min(Math.floor(calculatedTop), Math.floor(panelRect.height) + 5)}px`;
+        } else if (scrollPosition > panelBottom - headingHeight + 5) {
+            // Case 3: Below the panel, place at the bottom of the panel
+            topPosition = `${Math.floor(panelRect.height + 5)}px`;
+        }
+
+        heading.style.top = topPosition;
+    }
+
+    // Function to update all headings on scroll
+    function updateAllHeadingPositions() {
+        headings.forEach((heading) => {
+            const panelId = heading.getAttribute("id");
+            const panel = document.querySelector(`#${panelId}`).nextElementSibling;
+
+            // Update only if the panel is expanded
+            if (panel.classList.contains("in")) {
+                updateHeadingPosition(heading);
+            }
+        });
+    }
+
+    // Listen for scroll events
+    window.addEventListener("scroll", updateAllHeadingPositions);
+
+    // Listen for resize events
+    window.addEventListener("resize", () => {
+        console.log("Handling resize...");
+        setTimeout(() => {
+            updateAllHeadingPositions();
+        }, 400);
+    });
+
+    // Adjust scroll position when the panel is collapsed
     headings.forEach((heading) => {
         const panelId = heading.getAttribute("id");
         const panel = document.querySelector(`#${panelId}`).nextElementSibling;
 
-        // Store initial offset of the heading
-        headingOffsets.set(heading, {
-            initialOffset: heading.getBoundingClientRect().top + window.scrollY,
-            panel,
-        });
-
-        // Check if the panel starts expanded and update its position
-        if (panel.classList.contains("in")) {
-            updateHeadingPosition(heading, headingOffsets.get(heading));
-        }
-
-        // Adjust scroll position when the panel is collapsed
         $(panel).on("hidden.bs.collapse", () => {
             const panelHeight = panel.scrollHeight; // Height of the panel when expanded
             window.scrollBy(0, -panelHeight); // Adjust scroll to compensate for collapsed panel
@@ -29,50 +69,9 @@ function initializeStickyHeadings() {
 
         // Update scroll position when the panel is expanded
         $(panel).on("shown.bs.collapse", () => {
-            headingOffsets.set(heading, {
-                initialOffset: heading.getBoundingClientRect().top + window.scrollY,
-                panel,
-            });
-
-            // Update positions immediately
             updateAllHeadingPositions();
         });
     });
-
-    // Function to update the position of a specific heading
-    function updateHeadingPosition(heading, { initialOffset, panel }) {
-        const scrollPosition = window.scrollY || document.documentElement.scrollTop;
-        const scrollDifference = scrollPosition - initialOffset;
-
-        // Calculate panel boundaries
-        const panelRect = panel.getBoundingClientRect();
-        const panelTop = panelRect.top + window.scrollY;
-        const panelBottom = panelRect.bottom + window.scrollY;
-        const headingHeight = heading.offsetHeight;
-
-        // Limit the heading's top position within the panel's bounds
-        const topPosition = Math.min(
-            Math.max(scrollDifference, 0), // Don't go above the panel
-            panelBottom - panelTop + 5 // Don't go below the panel
-        );
-
-        heading.style.top = `${topPosition}px`;
-    }
-
-    // Function to update all headings on scroll
-    function updateAllHeadingPositions() {
-        headings.forEach((heading) => {
-            const { initialOffset, panel } = headingOffsets.get(heading);
-
-            // Update only if the panel is expanded
-            if (panel.classList.contains("in")) {
-                updateHeadingPosition(heading, { initialOffset, panel });
-            }
-        });
-    }
-
-    // Listen for scroll events
-    window.addEventListener("scroll", updateAllHeadingPositions);
 }
 
 // Initialize sticky behavior on DOM ready
