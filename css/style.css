@@ -67,10 +67,29 @@ figure {
   color: #fff;
   background: #2c98f0; }
 
+#scroll-nav-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    
+    border: none;
+    border-radius: 50%;
+    
+    z-index: 3;
+}
+    #scroll-nav-button i {
+        display: block;
+        font-size: 26px;
+    }
+
 #colorlib-page {
-  width: 100%;
-  overflow: hidden;
-  position: relative; }
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 #colorlib-aside {
   padding-top: 3em;
@@ -233,8 +252,7 @@ figure {
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
     #colorlib-main {
-      width: 100%;
-      padding: 0 1em; } }
+      width: 100%; } }
 
 #colorlib-hero {
   min-height: 500px;
@@ -257,8 +275,8 @@ figure {
         min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
-        bottom: 20px;
-        z-index: 1000;
+        top: 35px;
+        z-index: 2;
         right: 40px;
         width: auto;
         display: inline-flex;
@@ -399,11 +417,12 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-projects,
 .colorlib-contact {
-  padding-top: 0;
-  padding-bottom: 9em;
-  clear: both;
-  width: 100%;
-  display: block; }
+    padding-bottom: 9em;
+    padding-inline: 1em;
+    clear: both;
+    width: 100%;
+    display: block;
+}
   @media screen and (max-width: 768px) {
     .colorlib-experience,
     .colorlib-skills,
@@ -1368,32 +1387,36 @@ body.offcanvas {
   .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
-  .colorlib-nav-toggle i {
-    position: relative;
-    display: -moz-inline-stack;
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-    width: 30px;
-    height: 2px;
-    color: #000;
-    font: bold 14px/.4 Helvetica;
-    text-transform: uppercase;
-    text-indent: -55px;
-    background: #000;
-    -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
-    transition: all .2s ease-out; }
-    .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
-      content: '';
-      width: 30px;
-      height: 2px;
-      background: #000;
-      position: absolute;
-      left: 0;
-      -webkit-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s; }
+    .colorlib-nav-toggle i {
+        position: relative;
+        display: -moz-inline-stack;
+        display: inline-block;
+        zoom: 1;
+        *display: inline;
+        width: 30px;
+        height: 2px;
+        color: #000;
+        font: bold 14px/.4 Helvetica;
+        text-transform: uppercase;
+        text-indent: -55px;
+        background: #000;
+        box-shadow: 0px 1px 0px #fff;
+        -webkit-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+    }
+        .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
+            content: '';
+            width: 30px;
+            height: 2px;
+            background: #000;
+            box-shadow: 0px 1px 0px #fff;
+            position: absolute;
+            left: 0;
+            -webkit-transition: 0.2s;
+            -o-transition: 0.2s;
+            transition: 0.2s;
+        }
   .colorlib-nav-toggle.dark i {
     position: relative;
     color: #000;
@@ -1419,8 +1442,10 @@ body.offcanvas {
 .colorlib-nav-toggle:hover i::after {
   bottom: -10px; }
 
-.colorlib-nav-toggle.active i {
-  background: transparent; }
+    .colorlib-nav-toggle.active i {
+        background: transparent;
+        box-shadow: none;
+    }
 
 .colorlib-nav-toggle.active i::before {
   top: 0;
@@ -1430,13 +1455,16 @@ body.offcanvas {
   -o-transform: rotateZ(45deg);
   transform: rotateZ(45deg); }
 
-.colorlib-nav-toggle.active i::after {
-  bottom: 0;
-  -webkit-transform: rotateZ(-45deg);
-  -moz-transform: rotateZ(-45deg);
-  -ms-transform: rotateZ(-45deg);
-  -o-transform: rotateZ(-45deg);
-  transform: rotateZ(-45deg); }
+        .colorlib-nav-toggle.active i::after {
+            bottom: 0;
+            -webkit-transform: rotateZ(-45deg);
+            -moz-transform: rotateZ(-45deg);
+            -ms-transform: rotateZ(-45deg);
+            -o-transform: rotateZ(-45deg);
+            transform: rotateZ(-45deg);
+            box-shadow: 0px 1px 0px #fff;
+            mix-blend-mode: multiply;
+        }
 
 .colorlib-nav-toggle {
   position: fixed;

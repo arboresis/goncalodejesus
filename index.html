@@ -97,7 +97,7 @@
 
             <div id="colorlib-main">
                 <section id="colorlib-hero" class="js-fullheight" data-section="home">
-                    <div class="flexslider js-fullheight">
+                    <div class="flexslider js-fullheight"  data-section="home-scroll-target">
                         <ul class="slides">
                             <li style="background-image: url(images/img_bg_1.jpg);">
                                 <div class="overlay"></div>
@@ -137,6 +137,8 @@
                                 </div>
                             </li>
                         </ul>
+
+                        <button id="scroll-nav-button" onclick="scrollToAbout()"><i class="icon-arrow-down" style="color: #fff;"></i></button>
                     </div>
                 </section>
 
@@ -147,7 +149,7 @@
                                 <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                                     <div class="col-md-12">
                                         <div class="about-desc">
-                                            <span class="heading-meta">About</span>
+                                            <span class="heading-meta" data-section="about-scroll-target">About</span>
                                             <h2 class="colorlib-heading">About</h2>
                                             <p>
                                                 <b>Gonçalo de Jesus is a Narrative and Game Designer.</b>
@@ -199,43 +201,44 @@
                             </div>
                         </div>
                     </div>
-                </section>
 
 
 
 
-                <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-                    <div class="overlay"></div>
-                    <h2 class="colorlib-counter-title">Experience Summary</h2>
-                    <div class="colorlib-narrow-content">
-                        <div class="row">
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3 text-center animate-box">
-                                <span class="colorlib-counter js-counter" data-from="3" data-to="3" data-speed="1" data-refresh-interval="50"></span>
-                                <span class="colorlib-counter-label">Years of writing experience<br /><span>☛ 1y creative</span><br /><span>☛ 2y technical</span></span>
+
+                    <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+                        <div class="overlay"></div>
+                        <h2 class="colorlib-counter-title">Experience Summary</h2>
+                        <div class="colorlib-narrow-content">
+                            <div class="row">
                             </div>
-                            <div class="col-md-3 text-center animate-box">
-                                <span class="colorlib-counter js-counter" data-from="5" data-to="5" data-speed="1" data-refresh-interval="50"></span>
-                                <span class="colorlib-counter-label">Years of programming experience<br /><span>☛ (C#, JS, C++)</span></span>
-                            </div>
-                            <div class="col-md-3 text-center animate-box">
-                                <span class="colorlib-counter js-counter" data-from="1" data-to="1" data-speed="1" data-refresh-interval="50"></span>
-                                <span class="colorlib-counter-label">Year of team leading experience<span>☛ In game programming</span></span>
-                            </div>
-                            <div class="col-md-3 text-center animate-box">
-                                <span class="colorlib-counter js-counter" data-from="2" data-to="2" data-speed="1" data-refresh-interval="50"></span>
-                                <span class="colorlib-counter-label">Years of game and level design experience<span>☛ Independent work</span></span>
+                            <div class="row">
+                                <div class="col-md-3 text-center animate-box">
+                                    <span class="colorlib-counter js-counter" data-from="3" data-to="3" data-speed="1" data-refresh-interval="50"></span>
+                                    <span class="colorlib-counter-label">Years of writing experience<br /><span>☛ 1y creative</span><br /><span>☛ 2y technical</span></span>
+                                </div>
+                                <div class="col-md-3 text-center animate-box">
+                                    <span class="colorlib-counter js-counter" data-from="5" data-to="5" data-speed="1" data-refresh-interval="50"></span>
+                                    <span class="colorlib-counter-label">Years of programming experience<br /><span>☛ (C#, JS, C++)</span></span>
+                                </div>
+                                <div class="col-md-3 text-center animate-box">
+                                    <span class="colorlib-counter js-counter" data-from="1" data-to="1" data-speed="1" data-refresh-interval="50"></span>
+                                    <span class="colorlib-counter-label">Year of team leading experience<span>☛ In game programming</span></span>
+                                </div>
+                                <div class="col-md-3 text-center animate-box">
+                                    <span class="colorlib-counter js-counter" data-from="2" data-to="2" data-speed="1" data-refresh-interval="50"></span>
+                                    <span class="colorlib-counter-label">Years of game and level design experience<span>☛ Independent work</span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <section class="colorlib-skills" data-section="skills" id="skills">
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Skills</span>
+                                <span class="heading-meta" data-section="skills-scroll-target">Skills</span>
                                 <h2 class="colorlib-heading animate-box">Writing</h2>
                             </div>
                         </div>
@@ -600,7 +603,7 @@
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Samples</span>
+                                <span class="heading-meta" data-section="samples-scroll-target">Samples</span>
                                 <h2 class="colorlib-heading animate-box">Writing</h2>
                             </div>
                         </div>
@@ -955,7 +958,7 @@
         <div class="colorlib-narrow-content">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                    <span class="heading-meta">Projects</span>
+                    <span class="heading-meta" data-section="projects-scroll-target">Projects</span>
                     <h2 class="colorlib-heading">Project Summary</h2>
                 </div>
             </div>
@@ -1124,7 +1127,7 @@
         <div class="colorlib-narrow-content">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                    <span class="heading-meta">Experience</span>
+                    <span class="heading-meta" data-section="experience-scroll-target">Experience</span>
                     <h2 class="colorlib-heading animate-box">Work Experience</h2>
                 </div>
             </div>
@@ -1304,7 +1307,7 @@
         <div class="colorlib-narrow-content">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                    <span class="heading-meta">Contact</span>
+                    <span class="heading-meta" data-section="contact-scroll-target">Contact</span>
                     <h2 class="colorlib-heading">Get in touch</h2>
                 </div>
             </div>

@@ -131,9 +131,9 @@
 				var section = $(this).data('nav-section'),
 					navbar = $('#navbar');
 
-				if ($('[data-section="' + section + '"]').length) {
+				if ($('[data-section="' + section + '-scroll-target' + '"]').length) {
 					$('html, body').animate({
-						scrollTop: $('[data-section="' + section + '"]').offset().top - 55
+						scrollTop: $('[data-section="' + section + '-scroll-target' + '"]').offset().top - 55
 					}, 500);
 				}
 
@@ -161,27 +161,35 @@
 	var navigationSection = function () {
 		var $section = $('section[data-section]');
 
-		// Waypoint for scrolling down
-		$section.waypoint(function (direction) {
-			if (direction === 'down') {
-				navActive($(this.element).data('section'));
-			}
-		}, {
-			offset: '300px' // Adjust this value to trigger earlier or later
-		});
+		// Function to determine active section based on the middle of the window
+		var checkActiveSection = function () {
+			var scrollPos = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			var midWindow = scrollPos + (windowHeight / 2);
 
-		// Waypoint for scrolling up
-		$section.waypoint(function (direction) {
-			if (direction === 'up') {
-				navActive($(this.element).data('section'));
+			var activeSection = '';
+
+			// Loop through each section to find which one is at the middle of the screen
+			$section.each(function () {
+				var $this = $(this);
+				var sectionTop = $this.offset().top;
+				var sectionBottom = sectionTop + $this.outerHeight();
+
+				// Check if the section is currently crossing the midpoint of the screen
+				if (midWindow >= sectionTop && midWindow <= sectionBottom) {
+					activeSection = $this.data('section');
+				}
+			});
+
+			// If we found an active section, update it
+			if (activeSection) {
+				navActive(activeSection);
 			}
-		}, {
-			offset: function () {
-				return -$(this.element).height() + 300; // Adjust this value for upward scrolling
-			}
-		});
+		};
+
+		// Bind the checkActiveSection function to the scroll event
+		$(window).on('load scroll resize', checkActiveSection);
 	};
-
 
 	var sliderMain = function () {
 		$('#colorlib-hero .flexslider').flexslider({
