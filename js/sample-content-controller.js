@@ -20,6 +20,7 @@ function setHTMLFromFile(filePath, elementId) {
 setHTMLFromFile('samples/html-format-samples/CHARACTERDESIGNDOCUMENT_Coinhead_RoUR.txt', 'CHARACTERDESIGNDOCUMENT_Coinhead_RoUR_Content');
 setHTMLFromFile('samples/html-format-samples/CHARACTERDESIGNDOCUMENT_Persephone_RoUR.txt', 'CHARACTERDESIGNDOCUMENT_Persephone_RoUR_Content');
 setHTMLFromFile('samples/html-format-samples/LOCATIONBIO_TheShatteredCombine.txt', 'LOCATIONBIO_TheShatteredCombine_Content');
+setHTMLFromFile('samples/html-format-samples/SCRIPT_Apartment(SpecPilot).txt', 'SCRIPT_Apartment(SpecPilot)_Content');
 setHTMLFromFile('samples/html-format-samples/SCRIPT_DreamsInc.txt', 'SCRIPT_DreamsInc_Content');
 
 //Game Design samples

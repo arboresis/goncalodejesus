@@ -1,0 +1,66 @@
+
+<div style="padding-inline: 80px">COLD OPEN</div>
+
+
+<b>INT. APARTMENT 4B - NIGHT</b>
+
+REMP is at his home office's desk; it's messy and filled with sweet treat wraps, contrasting with the otherwise very clean room. To his right, a smaller desk holds a laptop playing a cool cyberpunk screensaver video.
+
+Remp is playing on his computer, clearly losing. He has his headphones on, and speaks to a friend on a call. He dies in game, and takes off his headphones in frustration.
+
+<div style="padding-inline: 70px">REMP</div>
+<div style="padding-inline: 30px">It's impossible, man. This dude's destroying us, I can barely move!</div>
+
+He puts down the headphones to take a beat. Without them, he hears the upstairs neighbors in the middle of having sex. He misses that fact, though.
+
+<div style="padding-inline: 70px">UPSTAIRS NEIGHBOR</div>
+<div style="padding-inline: 30px">Don't you dare stop, keep going! I didn't train you to be a quitter.</div>
+
+He slowly nods as he's fired up at this pep talk that's not directed at him at all.
+
+<div style="padding-inline: 70px">REMP</div>
+<div style="padding-inline: 30px">Yeah... Yeah, you're right!</div>
+
+He puts his headphones back on with vigor, and keeps playing intensely.
+
+After some time, Remp hears his neighbors muffled, so he takes out one ear to listen.
+
+<div style="padding-inline: 70px">UPSTAIRS NEIGHBOR</div>
+<div style="padding-inline: 30px">--more to the left. Right there!</div>
+
+Remp's face lights up, as he takes this as gaming advice.
+
+<div style="padding-inline: 70px">REMP</div>
+<div style="padding-inline: 50px">(excited, towards his teammates)</div>
+<div style="padding-inline: 30px">Guys, they're right: our left flank is open! Ray, go there, quick!</div>
+
+His team wins the fight, and they end the game, winning. Remp celebrates and cheers, pointing upwards as if to dedicate the win to his neighbors. He takes off his headphones.
+
+There's a continuous "clapping" sound in the background.
+
+<div style="padding-inline: 70px">UPSTAIRS NEIGHBOR</div>
+<div style="padding-inline: 30px">You're such a good boy. Oh, I'm so proud of you, oh yes I am.</div>
+
+Remp smiles innocently.
+
+<div style="padding-inline: 70px">REMP</div>
+<div style="padding-inline: 30px">Aw, man, thank you so much for the support! Even my parents never clapped for me.</div>
+
+Remp puts his headphones back on, with the widest grin on his face.
+
+<div style="padding-inline: 70px">REMP (CONT'D)</div>
+<div style="padding-inline: 50px">(to his friends on the call)</div>
+<div style="padding-inline: 30px">Man, I swear, I have the coolest neighbors.</div>
+
+<div style="padding-inline: 80px">END OF COLD OPEN</div>
+
+
+CUE: TITLE SEQUENCE
+
+<div style="opacity: 0.5;" />[Start of the episode; press the button below for the full script]</div><br/>
+
+<hr style="margin-block: 0; border-top: 2px solid #00000018; width: 100%"/><br/>
+<b>Full Spec Script</b>
+<p style="margin-bottom: 0;">
+<a style="color: black;" draggable="false" class="btn btn-primary btn-sample-link" href="samples/SCRIPT_Apartment(SpecPilot).pdf" target="_blank">PDF <i class="icon-inbox"></i></a>
+</p>
