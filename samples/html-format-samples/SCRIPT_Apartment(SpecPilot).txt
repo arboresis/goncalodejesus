@@ -1,5 +1,5 @@
 
-<div style="padding-inline: 80px">COLD OPEN</div>
+<div style="padding-inline: 80px"><b>COLD OPEN</b></div>
 
 
 <b>INT. APARTMENT 4B - NIGHT</b>
@@ -52,9 +52,9 @@ Remp puts his headphones back on, with the widest grin on his face.
 <div style="padding-inline: 50px">(to his friends on the call)</div>
 <div style="padding-inline: 30px">Man, I swear, I have the coolest neighbors.</div>
 <br/><br/>
-<div style="padding-inline: 80px">END OF COLD OPEN</div>
+<div style="padding-inline: 80px"><b>END OF COLD OPEN</b></div>
 
-CUE: TITLE SEQUENCE
+<i>CUE: TITLE SEQUENCE</i>
 
 <div style="opacity: 0.5;" />[Start of the episode; press the button below for the full script]</div><br/>
 
