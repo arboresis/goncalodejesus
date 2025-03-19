@@ -51,9 +51,8 @@ Remp puts his headphones back on, with the widest grin on his face.
 <div style="padding-inline: 70px">REMP (CONT'D)</div>
 <div style="padding-inline: 50px">(to his friends on the call)</div>
 <div style="padding-inline: 30px">Man, I swear, I have the coolest neighbors.</div>
-
+<br/><br/>
 <div style="padding-inline: 80px">END OF COLD OPEN</div>
-
 
 CUE: TITLE SEQUENCE
 
